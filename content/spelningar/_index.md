@@ -1,11 +1,11 @@
 ---
-title: "Division 7 live"
+title: "Livespelningar"
 cover: "pustervik_2023.JPG"
 showTableOfContents: true
 tocDepth: 3
 ---
 
-Sedan debutsingeln ”Inte hur du rör dig” släpptes 2017 har Division 7 blivit något som liknar ett fotbollslag med tillhörande supportrar. Fans reser över hela Sverige för att se spelningar med ”Divisionen”. Bandets spelningar har på bara några år gått från stökiga hemmafester till fulla, kokande konsertlokaler upp och ner längs E4:an. Vill du följa med? Kolla [Kommande spelningar](#kommande-spelningar) nedan `backhand_index_pointing_down`.
+Sedan debutsingeln ”Inte hur du rör dig” släpptes 2017 har Division 7 blivit något som liknar ett fotbollslag med tillhörande supportrar. Fans reser över hela Sverige för att se spelningar med ”Divisionen”. Bandets spelningar har på bara några år gått från stökiga hemmafester till fulla, kokande konsertlokaler upp och ner längs E4:an. Vill du följa med? Kolla [Kommande spelningar](#kommande-spelningar).
 
 <div style="display: flex;">
     <div style="flex: 1;">
@@ -34,13 +34,21 @@ Sedan debutsingeln ”Inte hur du rör dig” släpptes 2017 har Division 7 bliv
 
 ### 2024
 
-#### 2024-03-16 – Yaki-Da, Göteborg
+**2024-03-16** – Yaki-Da, Göteborg
 
-#### 2024-01-16 – Live Sweden, Skellefteå
+**2024-01-16** – Live Sweden, Skellefteå
 
 ### 2023
 
+**2023-10-14** – Plan B, Malmö
 
+**2023-09-16** – Pustervik, Göteborg
+
+**2023-08-05** – Gott Snack Festival, Stockholm
+
+**2023-08-04** – Tovastugan, Nyköping
+
+**2023-06-02** – Privatfest, Stockholm
 
 ### 2022
 

@@ -3,8 +3,8 @@ languageName = "English"
 languageDirection = "ltr"
 weight = 1
 
-title = "Congo"
-# copyright = "Copy, _right?_ :thinking_face:"
+title = "Division 7"
+ copyright = "Copyright 2024, Division 7 Music AB"
 
 [params]
   dateFormat = "2 January 2006"

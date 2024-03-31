@@ -19,8 +19,8 @@
     target = "_blank"
 
 [[main]]
-  name = "Live"
-  pageRef = "live"
+  name = "Spelningar"
+  pageRef = "spelningar"
   weight = 20
 
 [[main]]
