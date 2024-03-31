@@ -1,14 +1,19 @@
 ---
 title: "Division 7 live"
-cover: "/images/pustervik_2023.JPG"
+cover: "pustervik_2023.JPG"
 showTableOfContents: true
 ---
 
-# Division 7 live
+Sedan debutsingeln ”Inte hur du rör dig” släpptes 2017 har Division 7 blivit något som liknar ett fotbollslag med tillhörande supportrar. Fans reser över hela Sverige för att se spelningar med ”Divisionen”. Bandets spelningar har på bara några år gått från stökiga hemmafester till fulla, kokande konsertlokaler upp och ner längs E4:an. Vill du följa med? Kolla [Kommande spelningar](#kommande-spelningar) nedan `point_down`.
 
-<img src="pustervik_2023.JPG" alt="Pustervik 2023" width="50%">
-
-![Max surfar](max_surfar_pustervik_2023.jpg)
+<div style="display: flex;">
+    <div style="flex: 1;">
+        <img src="pustervik_2023.JPG" alt="Pustervik 2023" width="50%">
+    </div>
+    <div style="flex: 1;">
+        <img src="max_surfar_pustervik_2023.jpg" alt="Max surfar" width="50%">
+    </div>
+</div>
 
 ## Kommande spelningar
 
@@ -38,6 +43,6 @@ showTableOfContents: true
 
 ### 2022
 
-## 2021
+### 2021
 
 ### 2020
