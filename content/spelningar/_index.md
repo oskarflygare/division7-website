@@ -16,29 +16,29 @@ Sedan debutsingeln ”Inte hur du rör dig” släpptes 2017 har Division 7 bliv
     </div>
 </div>
 
-## Kommande spelningar
+# Kommande spelningar
 
-#### 2024-04-19 – Debaser, Stockholm ([Biljetter](https://debaser.se/kalender/?EventId=26298))
+## 2024-04-19 – Debaser, Stockholm ([Biljetter](https://debaser.se/kalender/?EventId=26298))
 
-#### 2024-04-20 – Festivallen, Linköping
+## 2024-04-20 – Festivallen, Linköping
 
-#### 2024-06-07 – Under bar Himmel, Örebro ([Biljetter](https://www.tickster.com/sv/events/x2cvw3avgtpz9l7/2024-06-07/hastpojken-division-7-under-bar-himmel))
+## 2024-06-07 – Under bar Himmel, Örebro ([Biljetter](https://www.tickster.com/sv/events/x2cvw3avgtpz9l7/2024-06-07/hastpojken-division-7-under-bar-himmel))
 
-#### 2024-07-27 – Ängelholm
+## 2024-07-27 – Ängelholm
 
-#### 2024-08-02 – Gott Snack Festival, Stockholm ([Bijletter](https://billetto.se/e/gott-snack-festival-biljetter-969436))
+## 2024-08-02 – Gott Snack Festival, Stockholm ([Bijletter](https://billetto.se/e/gott-snack-festival-biljetter-969436))
 
-#### 2024-08-24 – Herrljungafestivalen 
+## 2024-08-24 – Herrljungafestivalen 
 
-## Tidigare spelningar
+# Tidigare spelningar
 
-### 2024
+## 2024
 
 **2024-03-16** – Yaki-Da, Göteborg
 
 **2024-01-16** – Live Sweden, Skellefteå
 
-### 2023
+## 2023
 
 **2023-10-14** – Plan B, Malmö
 
@@ -64,7 +64,7 @@ Sedan debutsingeln ”Inte hur du rör dig” släpptes 2017 har Division 7 bliv
 
 **2023-01-27** – Platens Bar, Linköping
 
-### 2022
+## 2022
 
 **2022-11-26** – Kafé Deluxe, Växjö
 
@@ -102,7 +102,7 @@ Sedan debutsingeln ”Inte hur du rör dig” släpptes 2017 har Division 7 bliv
 
 **2022-04-02** – Bomber Bar, Motala
 
-### 2021
+## 2021
 
 **2021-11-11** – Nomad, Stockholm
 
@@ -130,7 +130,7 @@ Sedan debutsingeln ”Inte hur du rör dig” släpptes 2017 har Division 7 bliv
 
 **2021-06-15** – Musslan, Stockholm
 
-### 2020
+## 2020
 
 **2020-10-16** – Klubb John Doe, Skylten, Linköping
 
@@ -144,7 +144,7 @@ Sedan debutsingeln ”Inte hur du rör dig” släpptes 2017 har Division 7 bliv
 
 **2020-02-22** – Jerntorgets Brygghus, Göteborg
 
-### 2019
+## 2019
 
 **2019-12-20** – Brother Tuck, Stockholm
 
@@ -164,7 +164,7 @@ Sedan debutsingeln ”Inte hur du rör dig” släpptes 2017 har Division 7 bliv
 
 **2019-03-23** – Brother Tuck, Stockholm
 
-### 2018
+## 2018
 
 **2018-10-22** – Nalen Klubb, Stockholm
 
@@ -190,6 +190,6 @@ Sedan debutsingeln ”Inte hur du rör dig” släpptes 2017 har Division 7 bliv
 
 **2018-02-24** – Medusa Bar, Stockholm
 
-### 2017
+## 2017
 
 **2017-08-04** – PSB, Stockholm
