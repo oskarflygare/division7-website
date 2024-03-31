@@ -1,8 +1,14 @@
+---
+title: "Division 7 live"
+cover: "/images/pustervik_2023.JPG"
+showTableOfContents: true
+---
+
 # Division 7 live
 
-![Pustervik 2023](/images/pustervik_2023.JPG)
+<img src="pustervik_2023.JPG" alt="Pustervik 2023" width="50%">
 
-![Max surfar](/images/max_surfar_pustervik_2023.jpg)
+![Max surfar](max_surfar_pustervik_2023.jpg)
 
 ## Kommande spelningar
 
