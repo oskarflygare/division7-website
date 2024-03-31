@@ -11,7 +11,7 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Merch (via Septembernatt)"
+  name = "Merch"
   url = "https://www.septembernatt.se/shop?Artister=Division%25207"
   weight = 30
   [main.params]

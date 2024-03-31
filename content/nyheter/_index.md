@@ -1,6 +1,6 @@
 ---
-title: "Welcome to Congo! :tada:"
-description: "This is a demo of the Congo theme for Hugo."
+title: "Nyheter"
+description: "Senaste nytt från bandet."
 
 cascade:
   showDate: false
@@ -10,9 +10,9 @@ cascade:
 ---
 
 {{< lead >}}
-A powerful, lightweight theme for Hugo built with Tailwind CSS.
+Större uppdateringar från oss i Division 7
 {{< /lead >}}
 
-This is a demo site built entirely using Congo. It also contains a complete set of. Congo is flexible and is great for both static page-based content (like this demo) or a traditional blog with a feed of recent posts.
+Här kan du läsa de senaste nyheterna, du kan också prenumerera på vårt nyhetsbrev för att få dem direkt i inkorgen!
 
 ---
