@@ -13,7 +13,7 @@
 [[main]]
   name = "Merch (via Septembernatt)"
   url = "https://www.septembernatt.se/shop?Artister=Division%25207"
-  weight = 10
+  weight = 30
   [main.params]
     showName = true
     target = "_blank"
@@ -24,9 +24,9 @@
   weight = 20
 
 [[main]]
-  name = "Tags"
-  pageRef = "tags"
-  weight = 30
+  name = "Nyheter"
+  pageRef = "nyheter"
+  weight = 10
 
 [[main]]
   identifier = "search"
