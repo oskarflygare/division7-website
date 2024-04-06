@@ -5,9 +5,36 @@
     
       <url>
             <loc>http://localhost:1313/</loc>
+            <lastmod>2024-03-25T00:00:00+00:00</lastmod>
           </url>
     
   
+    
+      <url>
+            <loc>http://localhost:1313/nyheter/</loc>
+            <lastmod>2024-03-25T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/nyheter/hundhuvudet/</loc>
+            <lastmod>2024-03-22T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/boka/</loc>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/spelningar/</loc>
+          </url>
     
   
     

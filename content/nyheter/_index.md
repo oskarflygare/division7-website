@@ -10,7 +10,7 @@ cascade:
 ---
 
 {{< lead >}}
-Större uppdateringar från oss i Division 7
+Uppdateringar från oss i Division 7
 {{< /lead >}}
 
 Här kan du läsa de senaste nyheterna, du kan också prenumerera på vårt nyhetsbrev för att få dem direkt i inkorgen!

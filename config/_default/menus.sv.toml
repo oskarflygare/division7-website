@@ -28,6 +28,11 @@
   pageRef = "nyheter"
   weight = 10
 
+  [[main]]
+    name = "Boka Division 7"
+    pageRef = "boka"
+    weight = 40
+
 [[main]]
   identifier = "search"
   weight = 99
@@ -44,7 +49,26 @@
 # The footer menu is displayed at the bottom of the page, just before
 # the copyright notice. Configure as per the main menu above.
 
-# [[footer]]
-#   name = "Tags"
-#   pageRef = "tags"
-#   weight = 10
+[[footer]]
+  name = "Instagram"
+  url = "https://www.instagram.com/division7band"
+  weight = 10
+  [footer.params]
+    showName = true
+    target = "_blank"
+  
+[[footer]]
+  name = "Spotify"
+  url = "https://open.spotify.com/artist/3z6F8NIRs126ddMywopmfP?si=TDOSVTGgSwuj3xaS49Oqig"
+  weight = 20
+  [footer.params]
+    showName = true
+    target = "_blank"
+
+[[footer]]
+  name = "Nyhetsbrev"
+  url = "https://open.spotify.com/artist/3z6F8NIRs126ddMywopmfP?si=TDOSVTGgSwuj3xaS49Oqig"
+  weight = 30
+  [footer.params]
+    showName = true
+    target = "_blank"  
