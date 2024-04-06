@@ -12,4 +12,4 @@ Om du vill boka bandet för en mindre privat tillställning går det också bra 
 
 ## Övriga frågor
 
-Har du någon annan förfrågan till bandet? Ta gärna kontakt med vårt skivbolag [Septembernatt](https://www.septembernatt.se), <hej@septembernatt.se>.
+Har du någon annan förfrågan till bandet? Ta gärna kontakt med vårt skivbolag [Septembernatt](https://www.septembernatt.se), <filip@septembernatt.se>.
