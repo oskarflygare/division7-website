@@ -3,7 +3,7 @@ title: "Nyheter"
 description: "Senaste nytt från bandet."
 
 cascade:
-  showDate: false
+  showDate: true
   showAuthor: false
   showSummary: true
   invertPagination: true
