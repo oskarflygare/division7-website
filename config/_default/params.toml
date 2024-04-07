@@ -19,8 +19,8 @@ fingerprintAlgorithm = "sha256"
 
 [header]
   layout = "hybrid" # valid options: basic, hamburger, hybrid, custom
-  logo = "images/IMG_0860.jpg"
-  logoDark = "images/IMG_0860.jpg"
+  logo = "images/Svart logga konturer.png"
+  logoDark = "images/Vit logga konturer.png"
   showTitle = true
 
 [footer]
