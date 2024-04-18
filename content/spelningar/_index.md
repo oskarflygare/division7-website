@@ -20,6 +20,8 @@ Sedan debutsingeln ”Inte hur du rör dig” släpptes 2017 har Division 7 bliv
 
 ## 2024
 
+**2024-04-13** - Slazk Studio, Stockholm
+
 **2024-03-16** – Yaki-Da, Göteborg
 
 **2024-01-16** – Live Sweden, Skellefteå
