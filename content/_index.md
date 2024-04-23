@@ -10,31 +10,21 @@ För att fira vårt andra album *Hundhuvudet* ger vi oss ut på en turné under 
   width: 100%;
   list-style-type: none;
   position: relative;
+  flex-wrap: wrap;
 }
 
-.list-leader span:nth-child(1) {
+.list-leader span {
   width: 20%;
   text-align: left;
   z-index: 1;
-  padding-right: 10px;
+  padding: 10px;
 }
 
-.list-leader span:nth-child(2) {
-  width: 20%;
-  text-align: left;
-  z-index: 1;
-}
-
-.list-leader span:nth-child(3) {
-  width: 20%; /* Adjust this value to move the middle column */
-  text-align: left;
-  z-index: 1;
-}
-
-.list-leader span:nth-child(4) {
-  width: 20%;
-  text-align: left;
-  z-index: 1;
+@media (max-width: 600px) {
+  .list-leader span {
+    width: 100%;
+    text-align: center;
+  }
 }
 </style>
 
