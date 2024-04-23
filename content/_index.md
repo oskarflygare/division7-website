@@ -17,10 +17,10 @@ För att fira vårt andra album *Hundhuvudet* ger vi oss ut på en turné under 
   width: 20%;
   text-align: left;
   z-index: 1;
-  padding: 10px;
+  padding: 5px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 350px) {
   .list-leader span {
     width: 100%;
     text-align: center;
