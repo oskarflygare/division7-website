@@ -1,7 +1,9 @@
 
 # *Hundhuvudet rullar*
 
-För att fira vårt andra album *Hundhuvudet* ger vi oss ut på en turné, mer info kommer...
+Det är dags att sätta Hundhuvudet i rullning!
+
+Vi hoppas att ni vill vara med nu när vi tar vårt New Jersey-, Manchester- och Göteborgsosande skrammel ut i landet på vår första riksomfattande turné - Hundhuvudet rullar - under sommaren och hösten 2024. För det är när vi ses som den verkliga magin uppstår.
 
 - 25 MAJ – Septembernatt firar 100 releaser, **Stockholm** – [Biljetter](https://www.tickster.com/sv/events/y1y32b178mr8nnl/2024-05-25/septembernatt-100-releaser)  
 - 07 JUN – Under Bar Himmel, **Örebro** – [Biljetter](https://www.tickster.com/sv/events/x2cvw3avgtpz9l7/2024-06-07/hastpojken-division-7-under-bar-himmel)  
