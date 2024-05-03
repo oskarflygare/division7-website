@@ -12,7 +12,7 @@ Vi hoppas att ni vill vara med nu när vi tar vårt New Jersey-, Manchester- och
 - 04 OKT – **Linköping**, Skylten – [Biljetter](https://secure.tickster.com/a3tnyhe90cwwg3v)  
 - 05 OKT – **Göteborg**, Pustervik – [Biljetter](https://www.tickster.com/sv/events/dhpk3h56wypl2xy)  
 - 10 OKT – **Växjö**, Kafé Deluxe – [Biljetter](https://www.biljettkiosken.se/event/241010-kafedeluxe)  
-- 11 OKT – **Helsingborg**, Tivoli – [Biljetter](https://secure.tickster.com/41uxekj7grzp40v)  
+- 11 OKT – **Helsingborg**, Tivoli – [Biljetter](https://secure.tickster.com/r98g8r4tzwe9tgy)  
 - 12 OKT – **Malmö**, Plan B – (*Biljetter släpps inom kort*)  
 - 24 OKT – **Östersund**, Stuck on live – (*Biljetter släpps inom kort*)  
 - 25 OKT – **Umeå**, Väven – [Biljetter](https://www.tickster.com/se/sv/events/ncryt25r0mc208z)  
