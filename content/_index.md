@@ -8,17 +8,18 @@ Vi hoppas att ni vill vara med nu när vi tar vårt New Jersey-, Manchester- och
 - 25 MAJ – **Stockholm**, Septembernatt firar 100 releaser – [Biljetter](https://www.tickster.com/sv/events/y1y32b178mr8nnl/2024-05-25/septembernatt-100-releaser)  
 - 07 JUN – **Örebro**, Under Bar Himmel – [Biljetter](https://www.tickster.com/sv/events/x2cvw3avgtpz9l7/2024-06-07/hastpojken-division-7-under-bar-himmel)  
 - 27 JUL – **Ängelholm**, Musikfesten i Tullakrok - (*Biljetter släpps inom kort*) 
+- 24 AUG - **Herrljunga**, Herrljungafestivalen - [Gratis inträde](https://www.herrljunga.se/uppleva-och-gora/herrljungafestivalen-2024.html)  
 - 14 SEP – **Karlstad**, Nöjesfabriken – [Biljetter](https://secure.tickster.com/41uxekj7grzp40v)  
 - 04 OKT – **Linköping**, Skylten – [Biljetter](https://secure.tickster.com/a3tnyhe90cwwg3v)  
 - 05 OKT – **Göteborg**, Pustervik – [Biljetter](https://www.tickster.com/sv/events/dhpk3h56wypl2xy)  
 - 10 OKT – **Växjö**, Kafé Deluxe – [Biljetter](https://www.biljettkiosken.se/event/241010-kafedeluxe)  
 - 11 OKT – **Helsingborg**, Tivoli – [Biljetter](https://secure.tickster.com/r98g8r4tzwe9tgy)  
 - 12 OKT – **Malmö**, Plan B – [Biljetter](https://secure.tickster.com/sv/8y3c4akvvhm4ea2/)  
-- 24 OKT – **Östersund**, Stuck on live – (*Biljetter släpps inom kort*)  
+- 24 OKT – **Östersund**, Stuck on live – [Biljetter](https://billetto.se/e/stuck-on-division-7-biljetter-985581)  
 - 25 OKT – **Umeå**, Väven – [Biljetter](https://www.tickster.com/se/sv/events/ncryt25r0mc208z)  
 - 26 OKT – **Luleå**, Kulturens Hus – [Biljetter](https://secure.tickster.com/lwy8hckhmx8yt9n)  
 - 09 NOV – **Norrköping**, Dynamo – [Biljetter](https://secure.tickster.com/a1tv3rta87bmzav)  
-- 16 NOV - **Uppsala**, Katalin - (*Biljetter släpps inom kort*)  
+- 16 NOV - **Uppsala**, Katalin - [Biljetter](https://secure.tickster.com/sv/z2hrgf2n9hph47r/selectproductgroup)  
 
 ---
 
