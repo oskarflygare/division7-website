@@ -5,9 +5,9 @@ Det är dags att sätta Hundhuvudet i rullning!
 
 Vi hoppas att ni vill vara med nu när vi tar vårt New Jersey-, Manchester- och Göteborgsosande skrammel ut i landet på vår första riksomfattande turné - Hundhuvudet rullar - under sommaren och hösten 2024. För det är när vi ses som den verkliga magin uppstår.
 
-- 25 MAJ – **Stockholm**, Septembernatt firar 100 releaser – [Biljetter](https://www.tickster.com/sv/events/y1y32b178mr8nnl/2024-05-25/septembernatt-100-releaser)  
 - 07 JUN – **Örebro**, Under Bar Himmel – [Biljetter](https://www.tickster.com/sv/events/x2cvw3avgtpz9l7/2024-06-07/hastpojken-division-7-under-bar-himmel)  
 - 27 JUL – **Ängelholm**, Musikfesten i Tullakrok - [Biljetter](https://www.tickster.com/se/sv/events/53xnn8cyz83k6j8/2024-07-27/musikfesten-tullakrok)  
+- 02 AUG - **Stockholm**, Gott Snack Festival - [Biljetter](https://billetto.se/e/gott-snack-festival-biljetter-969436)  
 - 24 AUG - **Herrljunga**, Herrljungafestivalen - [Gratis inträde](https://www.herrljunga.se/uppleva-och-gora/herrljungafestivalen-2024.html)  
 - 14 SEP – **Karlstad**, Nöjesfabriken – [Biljetter](https://secure.tickster.com/41uxekj7grzp40v)  
 - 04 OKT – **Linköping**, Skylten – [Biljetter](https://secure.tickster.com/a3tnyhe90cwwg3v)  
