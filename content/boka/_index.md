@@ -4,7 +4,7 @@ title: "Boka Division 7"
 
 <img src="max_live.jpg" alt="Max Live" style="float: right;">
 
-Vill du boka Division 7 för en spelning? Kontakta i första hand vår bokningsagent My Bergman på [Jubel](https://jubel.se/artists/division-7) (<my@jubel.se>)
+Vill du boka Division 7 för en spelning? Kontakta i första hand vår bokningsagent Victor Schvarcz på [Jubel](https://jubel.se/artists/division-7) (<victor@jubel.se>), som är kontaktperson under tiden som My Bergman är föräldraledig.
 
 ## Privata tillställningar
 
