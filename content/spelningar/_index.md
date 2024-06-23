@@ -20,6 +20,8 @@ Sedan debutsingeln ”Inte hur du rör dig” släpptes 2017 har Division 7 bliv
 
 ## 2024
 
+**2024-06-07** – Under Bar Himmel, Örebro  
+
 **2024-05-25** - Septembernatt 100 releaser, Stadgårdsterminalen, Stockholm
 
 **2024-04-20** - Festivallen, Stångebrofältet, Linköping
