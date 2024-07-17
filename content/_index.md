@@ -10,6 +10,7 @@ Vi hoppas att ni vill vara med nu när vi tar vårt New Jersey-, Manchester- och
 - 02 AUG - **Stockholm**, Gott Snack Festival - [Biljetter](https://billetto.se/e/gott-snack-festival-biljetter-969436)  
 - 24 AUG - **Herrljunga**, Herrljungafestivalen - [Gratis inträde](https://www.herrljunga.se/uppleva-och-gora/herrljungafestivalen-2024.html)  
 - 30 AUG - **Vänersborg**, Folkets Hus - [Biljetter](https://tix.se/sv/kvb/buyingflow/tickets/19738/86716)  
+- 13 SEP - **Örebro**, Live At Heart - [Biljetter](https://www.tickster.com/se/sv/events/3eh5c7pwk0ge5dg/2024-09-11/live-at-heart-2024)  
 - 14 SEP – **Karlstad**, Nöjesfabriken – [Biljetter](https://secure.tickster.com/41uxekj7grzp40v)  
 - 04 OKT – **Linköping**, Skylten – [Biljetter](https://secure.tickster.com/a3tnyhe90cwwg3v)  
 - 05 OKT – **Göteborg**, Pustervik – [Biljetter](https://www.tickster.com/sv/events/dhpk3h56wypl2xy)  
