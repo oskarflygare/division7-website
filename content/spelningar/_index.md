@@ -20,6 +20,10 @@ Sedan debutsingeln ”Inte hur du rör dig” släpptes 2017 har Division 7 bliv
 
 ## 2024
 
+**2024-07-27** - Musikfesten i Tullakrok, Ängelholm  
+
+**2024-07-26** - Strömsholmen (med Thomas Stenström), Eskilstuna  
+
 **2024-06-07** – Under Bar Himmel, Örebro  
 
 **2024-05-25** - Septembernatt 100 releaser, Stadgårdsterminalen, Stockholm

@@ -5,8 +5,6 @@ Det är dags att sätta Hundhuvudet i rullning!
 
 Vi hoppas att ni vill vara med nu när vi tar vårt New Jersey-, Manchester- och Göteborgsosande skrammel ut i landet på vår första riksomfattande turné - Hundhuvudet rullar - under sommaren och hösten 2024. För det är när vi ses som den verkliga magin uppstår.
 
-- 26 JUL - **Eskilstuna**, Strömsholmen (med Thomas Stenström) - [Biljetter](https://secure.tickster.com/sv/cgf1cgugapnk53b/products)  
-- 27 JUL – **Ängelholm**, Musikfesten i Tullakrok - [Biljetter](https://www.tickster.com/se/sv/events/53xnn8cyz83k6j8/2024-07-27/musikfesten-tullakrok)  
 - 02 AUG - **Stockholm**, Gott Snack Festival - [Biljetter](https://billetto.se/e/gott-snack-festival-biljetter-969436)  
 - 24 AUG - **Herrljunga**, Herrljungafestivalen - [Gratis inträde](https://www.herrljunga.se/uppleva-och-gora/herrljungafestivalen-2024.html)  
 - 30 AUG - **Vänersborg**, Folkets Hus - [Biljetter](https://tix.se/sv/kvb/buyingflow/tickets/19738/86716)  
