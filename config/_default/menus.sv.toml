@@ -12,7 +12,7 @@
 
 [[main]]
   name = "Merch"
-  url = "https://www.septembernatt.se/shop?Artister=Division%25207"
+  url = "https://septembernatt.myshopify.com/collections/division-7"
   weight = 30
   [main.params]
     showName = true
