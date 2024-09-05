@@ -20,6 +20,10 @@ Sedan debutsingeln ”Inte hur du rör dig” släpptes 2017 har Division 7 bliv
 
 ## 2024
 
+**2024-08-30** - Folkets Hus, Vänersborg
+
+**2024-08-24** - Herrljungafestivalen, Herrljunga
+
 **2024-08-02** - Gott Snack Festival, Stockholm  
 
 **2024-07-27** - Musikfesten i Tullakrok, Ängelholm  
