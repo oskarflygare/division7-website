@@ -20,6 +20,12 @@ Sedan debutsingeln ”Inte hur du rör dig” släpptes 2017 har Division 7 bliv
 
 ## 2024
 
+**2024-09-14** - Nöjesfabriken, Karlstad  
+
+**2024-09-13** - Live At Heart, Örebro  
+
+**2024-09-13** - P4 Örebro, Live At Heart, Örebro  
+
 **2024-08-30** - Folkets Hus, Vänersborg
 
 **2024-08-24** - Herrljungafestivalen, Herrljunga

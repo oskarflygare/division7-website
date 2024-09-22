@@ -5,8 +5,6 @@ Det är dags att sätta Hundhuvudet i rullning!
 
 Vi hoppas att ni vill vara med nu när vi tar vårt New Jersey-, Manchester- och Göteborgsosande skrammel ut i landet på vår första riksomfattande turné - Hundhuvudet rullar - under sommaren och hösten 2024. För det är när vi ses som den verkliga magin uppstår.
 
-- 13 SEP - **Örebro**, Live At Heart - [Biljetter](https://www.tickster.com/se/sv/events/3eh5c7pwk0ge5dg/2024-09-11/live-at-heart-2024)  
-- 14 SEP – **Karlstad**, Nöjesfabriken – [Biljetter](https://secure.tickster.com/41uxekj7grzp40v)  
 - 04 OKT – **Linköping**, Skylten – [Biljetter](https://secure.tickster.com/a3tnyhe90cwwg3v)  
 - 05 OKT – **Göteborg**, Pustervik – [Biljetter](https://www.tickster.com/sv/events/dhpk3h56wypl2xy)  
 - 10 OKT – **Växjö**, Kafé Deluxe – [Biljetter](https://www.biljettkiosken.se/event/241010-kafedeluxe)  
