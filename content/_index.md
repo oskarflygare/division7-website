@@ -5,17 +5,17 @@ Det är dags att sätta Hundhuvudet i rullning!
 
 Vi hoppas att ni vill vara med nu när vi tar vårt New Jersey-, Manchester- och Göteborgsosande skrammel ut i landet på vår första riksomfattande turné - Hundhuvudet rullar - under sommaren och hösten 2024. För det är när vi ses som den verkliga magin uppstår.
 
-- 04 OKT – **Linköping**, Skylten – [Biljetter](https://secure.tickster.com/a3tnyhe90cwwg3v)  
-- 05 OKT – **Göteborg**, Pustervik – [Biljetter](https://www.tickster.com/sv/events/dhpk3h56wypl2xy)  
-- 10 OKT – **Växjö**, Kafé Deluxe – [Biljetter](https://www.biljettkiosken.se/event/241010-kafedeluxe)  
-- 11 OKT – **Helsingborg**, Tivoli – [Biljetter](https://secure.tickster.com/r98g8r4tzwe9tgy)  
-- 12 OKT – **Malmö**, Plan B – [Biljetter](https://secure.tickster.com/sv/8y3c4akvvhm4ea2/)  
-- 24 OKT – **Östersund**, Stuck on live – [Biljetter](https://billetto.se/e/stuck-on-division-7-biljetter-985581)  
-- 25 OKT – **Umeå**, Väven – [Biljetter](https://www.tickster.com/se/sv/events/ncryt25r0mc208z)  
-- 26 OKT – **Luleå**, Kulturens Hus – [Biljetter](https://secure.tickster.com/lwy8hckhmx8yt9n)  
+- ~~04 OKT - Linköping, Skylten~~
+- ~~05 OKT – Göteborg, Pustervik~~  
+- ~~10 OKT – Växjö, Kafé Deluxe~~  
+- ~~11 OKT – Helsingborg, Tivoli~~  
+- ~~12 OKT – Malmö, Plan B~~  
+- ~~24 OKT – Östersund, Jazzköket~~  
+- ~~25 OKT – Umeå, Väven~~  
+- ~~26 OKT – Luleå, Kulturens Hus~~  
 - 08 NOV - **Kristianstad**, Biljardkompaniet - [Biljetter](https://www.tickster.com/se/en/events/azld8arzwhrh63j/2024-11-08/division-7)  
 - 09 NOV – **Norrköping**, Dynamo – [Biljetter](https://secure.tickster.com/a1tv3rta87bmzav)  
-- 16 NOV - **Uppsala**, Katalin - [Biljetter](https://secure.tickster.com/sv/z2hrgf2n9hph47r/selectproductgroup)  
+- 16 NOV - **Uppsala**, Katalin - [Biljetter](https://secure.tickster.com/sv/z2hrgf2n9hph47r/selectproductgroup)   
 
 ---
 
