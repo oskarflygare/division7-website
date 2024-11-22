@@ -1,21 +1,11 @@
 
-# *Hundhuvudet rullar*
+# DIVISION 7 LIVE PÅ FÅLLAN, STOCKHOLM 2025
 
-Det är dags att sätta Hundhuvudet i rullning!
+Hundhuvudet har rullat färdigt men nu ska nya kapitel skrivas - Tillsammans med er hoppas vi. **13 september spelar vi på Fållan i Stockholm**. Gör plats i kalendern för Division 7:s största konsert hittills. Biljetter släpps nu på måndag 25 november kl. 10:00 via [Jubel](https://jubel.se/division-7).
 
-Vi hoppas att ni vill vara med nu när vi tar vårt New Jersey-, Manchester- och Göteborgsosande skrammel ut i landet på vår första riksomfattande turné - Hundhuvudet rullar - under sommaren och hösten 2024. För det är när vi ses som den verkliga magin uppstår.
+Vår musik har alltid skrivits med ambitionen att nå de stora scenerna och nu börjar vi känna vittring. Fållan 2025 är de första stegen på starten för en ny Division 7-era när vi tar steget ur de smalare kretsarna och som vi ser fram emot att möta publiken med fullt ställ och känslorna utanpå. Ni som har varit med oss tidigare vet vad det är frågan om och vi räknar med er. Ni andra, det är hög tid att ta reda på vad ni hittills har missat. Vi ses vid scenkanten. Med ny musik i bagaget. 
 
-- ~~04 OKT - Linköping, Skylten~~
-- ~~05 OKT – Göteborg, Pustervik~~  
-- ~~10 OKT – Växjö, Kafé Deluxe~~  
-- ~~11 OKT – Helsingborg, Tivoli~~  
-- ~~12 OKT – Malmö, Plan B~~  
-- ~~24 OKT – Östersund, Jazzköket~~  
-- ~~25 OKT – Umeå, Väven~~  
-- ~~26 OKT – Luleå, Kulturens Hus~~  
-- 08 NOV - **Kristianstad**, Biljardkompaniet - [Biljetter](https://www.tickster.com/se/en/events/azld8arzwhrh63j/2024-11-08/division-7)  
-- 09 NOV – **Norrköping**, Dynamo – [Biljetter](https://secure.tickster.com/a1tv3rta87bmzav)  
-- 16 NOV - **Uppsala**, Katalin - [Biljetter](https://secure.tickster.com/sv/z2hrgf2n9hph47r/selectproductgroup)   
+**2025-09-13** - Fållan, Stockholm – [Biljetter](https://secure.tickster.com/tvxxc2y1z85xjmr)
 
 ---
 

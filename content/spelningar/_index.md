@@ -20,6 +20,28 @@ Sedan debutsingeln ”Inte hur du rör dig” släpptes 2017 har Division 7 bliv
 
 ## 2024
 
+**2024-11-16** - Katalin, Uppsala
+
+**2024-11-09** - Dynamo, Norrköping
+
+**2024-11-08** - Biljardkompaniet, Kristianstad
+
+**2024-10-26** - Kulturens Hus, Luleå
+
+**2024-10-25** - Väven, Umeå
+
+** 2024-10-24** - Jazzköket, Östersund
+
+**2024-10-12** - Plan B, Malmö
+
+**2024-10-11** - Tivoli, Helsingborg
+
+**2024-10-10** - Kafé Deluxe, Växjö
+
+**2024-10-05** - Pustervik, Göteborg
+
+**2024-10-04** - Skylten, Linköping
+
 **2024-09-14** - Nöjesfabriken, Karlstad  
 
 **2024-09-13** - Live At Heart, Örebro  
