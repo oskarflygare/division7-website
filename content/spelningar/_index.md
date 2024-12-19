@@ -16,6 +16,12 @@ Sedan debutsingeln ”Inte hur du rör dig” släpptes 2017 har Division 7 bliv
     </div>
 </div>
 
+# Kommande spelningar
+
+**2025-09-05** - Babel, Malmö [Biljetter](https://secure.tickster.com/sv/4djm32jd48bdb78/products)
+**2025-09-06** - Pustervik, Göteborg [Biljetter](https://secure.tickster.com/sv/l4chvck7v6ww3je/products)
+**2025-09-13** - Fållan, Stockholm – [Biljetter](https://secure.tickster.com/tvxxc2y1z85xjmr)
+
 # Tidigare spelningar
 
 ## 2024
@@ -30,7 +36,7 @@ Sedan debutsingeln ”Inte hur du rör dig” släpptes 2017 har Division 7 bliv
 
 **2024-10-25** - Väven, Umeå
 
-** 2024-10-24** - Jazzköket, Östersund
+**2024-10-24** - Jazzköket, Östersund
 
 **2024-10-12** - Plan B, Malmö
 

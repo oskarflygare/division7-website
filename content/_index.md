@@ -1,11 +1,13 @@
 
-# DIVISION 7 LIVE PÅ FÅLLAN, STOCKHOLM 2025
+# DIVISION 7 LIVE 2025
 
-Hundhuvudet har rullat färdigt men nu ska nya kapitel skrivas - Tillsammans med er hoppas vi. **13 september spelar vi på Fållan i Stockholm**. Gör plats i kalendern för Division 7:s största konsert hittills. Biljetter släpps nu på måndag 25 november kl. 10:00 via [Jubel](https://jubel.se/division-7).
+<img src="pustervik-surf-crop.jpg" alt="Max Surfar Pustervik" style="display: block; margin: 0 auto;">
 
-Vår musik har alltid skrivits med ambitionen att nå de stora scenerna och nu börjar vi känna vittring. Fållan 2025 är de första stegen på starten för en ny Division 7-era när vi tar steget ur de smalare kretsarna och som vi ser fram emot att möta publiken med fullt ställ och känslorna utanpå. Ni som har varit med oss tidigare vet vad det är frågan om och vi räknar med er. Ni andra, det är hög tid att ta reda på vad ni hittills har missat. Vi ses vid scenkanten. Med ny musik i bagaget. 
+Hundhuvudet har rullat färdigt men nu ska nya kapitel skrivas - Tillsammans med er hoppas vi. Hösten 2025 gör vi tre exklusiva konserter i Stockholm, Malmö och Göteborg. Dessutom släpps ny musik under nästa år. Vi ses vid scenkanten.
 
-**2025-09-13** - Fållan, Stockholm – [Biljetter](https://secure.tickster.com/tvxxc2y1z85xjmr)
+**2025-09-05** - Babel, Malmö [Biljetter](https://secure.tickster.com/sv/4djm32jd48bdb78/products)  
+**2025-09-06** - Pustervik, Göteborg [Biljetter](https://secure.tickster.com/sv/l4chvck7v6ww3je/products)  
+**2025-09-13** - Fållan, Stockholm – [Biljetter](https://secure.tickster.com/tvxxc2y1z85xjmr)  
 
 ---
 
