@@ -7,14 +7,7 @@ tocDepth: 3
 
 Sedan debutsingeln ”Inte hur du rör dig” släpptes 2017 har Division 7 blivit något som liknar ett fotbollslag med tillhörande supportrar. Fans reser över hela Sverige för att se spelningar med ”Divisionen”. Bandets spelningar har på bara några år gått från stökiga hemmafester till fulla, kokande konsertlokaler upp och ner längs E4:an. Vill du följa med? Kolla startsidan för kommande spelningar.
 
-<div style="display: flex;">
-    <div style="flex: 1;">
-        <img src="pustervik_2023.jpeg" alt="Pustervik 2023">
-    </div>
-    <div style="flex: 1;">
-        <img src="max_surfar_pustervik_2023.jpg" alt="Max surfar">
-    </div>
-</div>
+<img src="diffust.jpg" alt="Live Action" style="display: block; margin: 0 auto;">
 
 # Kommande spelningar
 
