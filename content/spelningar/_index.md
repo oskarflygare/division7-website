@@ -18,9 +18,9 @@ Sedan debutsingeln ”Inte hur du rör dig” släpptes 2017 har Division 7 bliv
 
 # Kommande spelningar
 
-**2025-09-05** - Babel, Malmö [Biljetter](https://secure.tickster.com/sv/4djm32jd48bdb78/products)
-**2025-09-06** - Pustervik, Göteborg [Biljetter](https://secure.tickster.com/sv/l4chvck7v6ww3je/products)
-**2025-09-13** - Fållan, Stockholm – [Biljetter](https://secure.tickster.com/tvxxc2y1z85xjmr)
+**2025-09-05** - Babel, Malmö [Biljetter](https://secure.tickster.com/sv/4djm32jd48bdb78/products)  
+**2025-09-06** - Pustervik, Göteborg [Biljetter](https://secure.tickster.com/sv/l4chvck7v6ww3je/products)  
+**2025-09-13** - Fållan, Stockholm – [Biljetter](https://secure.tickster.com/tvxxc2y1z85xjmr)  
 
 # Tidigare spelningar
 
