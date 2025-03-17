@@ -18,6 +18,10 @@ Sedan debutsingeln ”Inte hur du rör dig” släpptes 2017 har Division 7 bliv
 
 # Tidigare spelningar
 
+## 2025
+
+**2025-01-04** - Privatfest, Stockholm
+
 ## 2024
 
 **2024-11-16** - Katalin, Uppsala
