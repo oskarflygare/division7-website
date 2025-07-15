@@ -23,6 +23,10 @@ Sedan debutsingeln ”Inte hur du rör dig” släpptes 2017 har Division 7 bliv
 
 ## 2025
 
+**2025-06-07** - Bröllop, Herräng
+
+**2025-03-26** - Debaser, Stockholm
+
 **2025-01-04** - Privatfest, Stockholm
 
 ## 2024
