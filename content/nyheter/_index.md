@@ -916,5 +916,3 @@ Prenumerera gärna på vårt nyhetsbrev för att få de senaste uppdateringarna 
         <script>
             fetch("https://assets.mailerlite.com/jsonp/1852640/forms/168082032620995816/takel")
         </script>
-
----
