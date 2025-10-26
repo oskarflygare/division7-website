@@ -2,4 +2,4 @@
 
 - Domain managed via Namecheap
 - Deployment through Netlify
-- Newsletter functionality via Brevo
+- Newsletter functionality via Mailerlite
