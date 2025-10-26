@@ -24,8 +24,8 @@
   weight = 20
 
 [[main]]
-  name = "Nyheter"
-  pageRef = "nyheter"
+  name = "Nyhetsbrev"
+  pageRef = "nyhetsbrev"
   weight = 10
 
   [[main]]
@@ -67,7 +67,7 @@
 
 [[footer]]
   name = "Nyhetsbrev"
-  url = "https://935606b9.sibforms.com/serve/MUIFAGpa30cXNehQQQ0g7zHBrZeO4ztP1K25UJH1o7yOp5rEawMDFjjOOws96mTN8aR8kKE6GrtPqGLLAMkBSlOk251L5Qjf0otrmW9pMmputZZSKiS7GzkDrV6uwPpcYAyfQTT--2uL6mXVE6bP7ufpjdHty_dJ3SXgIoC9cigkyClVD8jpJ50OuTV1svTndn_TtXdaDp3_3lg9"
+  url = "https://preview.mailerlite.io/forms/1852640/168082032620995816/share"
   weight = 30
   [footer.params]
     showName = true
