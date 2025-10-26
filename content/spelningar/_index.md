@@ -11,16 +11,29 @@ Sedan debutsingeln ”Inte hur du rör dig” släpptes 2017 har Division 7 bliv
 
 # Kommande spelningar
 
-**2025-08-29** - Almost A Festival, Uppsala - [Biljetter](https://www.tickster.com/se/sv/events/ea8zum3pgtzy3cg/2025-08-29/almost-a-festival-2025)  
-**2025-08-30** - LÅ Vibe, Luleå - [Gratis inträde](https://www.lulea.se/uppleva--gora/kultur/la-vibe-/antnas-30-augusti-2025.html)  
-**2025-09-06** - Pustervik, Göteborg - [Biljetter](https://secure.tickster.com/sv/l4chvck7v6ww3je/products)  
-**2025-09-11** by:Larm, Oslo - [Biljetter](https://bylarm.no/tickets)  
-**2025-09-13** - Fållan, Stockholm – [Biljetter](https://secure.tickster.com/tvxxc2y1z85xjmr)  
-**2025-10-03** - Plan B, Malmö - [Biljetter](https://www.nortic.se/ticket/show/298169)  
-
 # Tidigare spelningar
 
 ## 2025
+
+**2025-10-03** - Plan B, Malmö
+
+**2025-09-26** - Snerikes nation, Uppsala
+
+**2025-09-19** - Filmstudion, Göteborg
+
+**2025-09-13** - Fållan, Stockholm
+
+**2025-09-12** - P4 Musikplats Stockholm, Stockholm
+
+**2025-09-11** - by:Larm, Oslo
+
+**2025-09-06** - Pustervik, Göteborg
+
+**2025-09-05** - Live At Heart, Örebro
+
+**2025-08-30** - LÅ Vibe, Luleå
+
+**2025-08-29** - Almost A Festival, Uppsala
 
 **2025-07-26** - Emmabodakalaset, Emmaboda
 
