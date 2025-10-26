@@ -1,5 +1,5 @@
 ---
-title: "Nyheter"
+title: "Nyhetersbrev"
 description: "Bandets nyhetsbrev"
 ---
 
