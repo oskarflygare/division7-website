@@ -15,6 +15,10 @@ Sedan debutsingeln ”Inte hur du rör dig” släpptes 2017 har Division 7 bliv
 
 ## 2025
 
+**2025-11-19** - Kapellet Hus 7, Stockholm
+
+**2025-11-14** - Pet Sounds Bar, Stockholm
+
 **2025-10-03** - Plan B, Malmö
 
 **2025-09-26** - Snerikes nation, Uppsala
