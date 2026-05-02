@@ -1,21 +1,37 @@
 [build]
-  publish = "."
+publish = "."
 
 [[headers]]
-  for = "/fonts/*"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-    Access-Control-Allow-Origin = "*"
+for = "/fonts/*"
+[headers.values]
+Cache-Control = "public, max-age=31536000, immutable"
+Access-Control-Allow-Origin = "*"
 
 [[headers]]
-  for = "/assets/*"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
+for = "/assets/*"
+[headers.values]
+Cache-Control = "public, max-age=31536000, immutable"
 
 [[headers]]
-  for = "/*.html"
-  [headers.values]
-    Cache-Control = "public, max-age=0, must-revalidate"
-    X-Content-Type-Options = "nosniff"
-    X-Frame-Options = "DENY"
-    Referrer-Policy = "strict-origin-when-cross-origin"
+for = "/"
+[headers.values]
+Cache-Control = "public, max-age=0, must-revalidate"
+X-Content-Type-Options = "nosniff"
+X-Frame-Options = "DENY"
+Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+for = "/past-shows"
+[headers.values]
+Cache-Control = "public, max-age=0, must-revalidate"
+X-Content-Type-Options = "nosniff"
+X-Frame-Options = "DENY"
+Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+for = "/*.html"
+[headers.values]
+Cache-Control = "public, max-age=0, must-revalidate"
+X-Content-Type-Options = "nosniff"
+X-Frame-Options = "DENY"
+Referrer-Policy = "strict-origin-when-cross-origin"
