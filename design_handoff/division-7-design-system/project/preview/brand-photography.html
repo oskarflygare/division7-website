@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  @font-face {
+    font-family: 'Gellix';
+    src: url('../fonts/GellixRegular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Gellix';
+    src: url('../fonts/GellixBoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Gellix';
+    src: url('../fonts/GellixExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+  }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #0a0a0a; font-family: 'Gellix', sans-serif; padding: 0; }
+  .photos { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 2px; }
+  .photo { position: relative; overflow: hidden; }
+  .photo img { width: 100%; height: 100%; object-fit: cover; display: block; filter: grayscale(1) contrast(1.1); }
+  .photo-main { height: 180px; }
+  .photo-sm    { height: 89px; }
+  .overlay {
+    position: absolute; inset: 0;
+    background: rgba(0,0,0,0.0);
+    transition: background 0.2s ease;
+    display: flex; align-items: flex-end; padding: 12px;
+  }
+  .photo:hover .overlay { background: rgba(0,0,0,0.4); }
+  .overlay-text {
+    font-family: 'Gellix', sans-serif; font-weight: 800; font-style: italic;
+    font-size: 14px; color: #f5f5f0; text-transform: uppercase; letter-spacing: -0.01em;
+    opacity: 0; transition: opacity 0.2s ease;
+  }
+  .photo:hover .overlay-text { opacity: 1; }
+  .caption-row { padding: 10px 16px; display: flex; gap: 16px; align-items: center; border-top: 1px solid #1a1a18; }
+  .caption-text { font-size: 10px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: #555550; }
+  .caption-rule { font-size: 10px; color: #2a2a28; }
+</style>
+</head>
+<body>
+  <div class="photos">
+    <div class="photo photo-main">
+      <img src="../assets/fallan-wide.jpg" alt="Fållan wide">
+      <div class="overlay"><span class="overlay-text">Fållan — Gothenburg</span></div>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:2px;">
+      <div class="photo photo-sm">
+        <img src="../assets/DSCF4576_svartvitt.jpg" alt="Stage">
+        <div class="overlay"><span class="overlay-text">Stage</span></div>
+      </div>
+      <div class="photo photo-sm">
+        <img src="../assets/DSCF4557_svartvitt.jpg" alt="Sax">
+        <div class="overlay"><span class="overlay-text">Saxophonist</span></div>
+      </div>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:2px;">
+      <div class="photo photo-sm">
+        <img src="../assets/pustervik-surf-crop.jpg" alt="Crowd surf">
+        <div class="overlay"><span class="overlay-text">Pustervik</span></div>
+      </div>
+      <div class="photo photo-sm">
+        <img src="../assets/DSCF4686_svartvitt.jpg" alt="Stage edge">
+        <div class="overlay"><span class="overlay-text">Stage Edge</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="caption-row">
+    <span class="caption-text">Always B&W</span>
+    <span class="caption-rule">·</span>
+    <span class="caption-text">High contrast</span>
+    <span class="caption-rule">·</span>
+    <span class="caption-text">Full-bleed</span>
+    <span class="caption-rule">·</span>
+    <span class="caption-text">No overlay by default</span>
+  </div>
+</body>
+</html>
