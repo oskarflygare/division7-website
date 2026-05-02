@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  @font-face {
+    font-family: 'Gellix';
+    src: url('../fonts/GellixRegular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Gellix';
+    src: url('../fonts/GellixBoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Gellix';
+    src: url('../fonts/GellixExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+  }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #f5f5f0; font-family: 'Gellix', sans-serif; padding: 20px 24px; }
+  .scale-row { display: flex; align-items: baseline; gap: 16px; padding: 7px 0; border-bottom: 1px solid #e8e8e0; }
+  .scale-row:last-child { border-bottom: none; }
+  .step { font-size: 9px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: #aaaaaa; width: 60px; flex-shrink: 0; }
+  .px   { font-size: 9px; font-family: 'Courier New', monospace; color: #c8c8c0; width: 36px; flex-shrink: 0; }
+  .text { font-family: 'Gellix', sans-serif; font-weight: 800; font-style: italic; color: #0a0a0a; text-transform: uppercase; line-height: 1.0; letter-spacing: -0.02em; }
+</style>
+</head>
+<body>
+  <div class="scale-row"><span class="step">6xl</span><span class="px">112px</span><div class="text" style="font-size:48px;">Division 7</div></div>
+  <div class="scale-row"><span class="step">5xl</span><span class="px">80px</span><div class="text" style="font-size:38px;">Division 7</div></div>
+  <div class="scale-row"><span class="step">4xl</span><span class="px">64px</span><div class="text" style="font-size:30px;">Division 7</div></div>
+  <div class="scale-row"><span class="step">3xl</span><span class="px">48px</span><div class="text" style="font-size:24px;">Division 7</div></div>
+  <div class="scale-row"><span class="step">2xl</span><span class="px">36px</span><div class="text" style="font-size:18px;">Division 7</div></div>
+  <div class="scale-row"><span class="step">xl</span><span class="px">28px</span><div class="text" style="font-size:14px;">Division 7</div></div>
+</body>
+</html>

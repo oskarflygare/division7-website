@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Division 7 — Past Shows</title>
+<style>
+@font-face {
+  font-family: 'Gellix';
+  src: url('../../fonts/GellixRegular.otf') format('opentype');
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'Gellix';
+  src: url('../../fonts/GellixBoldItalic.otf') format('opentype');
+  font-weight: 700; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: 'Gellix';
+  src: url('../../fonts/GellixExtraBoldItalic.otf') format('opentype');
+  font-weight: 800; font-style: italic; font-display: swap;
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+:root {
+  --black:    #0a0a0a;
+  --grey-900: #1a1a18;
+  --grey-800: #2a2a28;
+  --grey-700: #3c3c38;
+  --grey-500: #888880;
+  --grey-400: #aaaaaa;
+  --grey-200: #d4d4ce;
+  --white:    #f5f5f0;
+  --red:      #e8190e;
+  --font-display: 'Gellix', sans-serif;
+  --font-body:    'Gellix', sans-serif;
+}
+
+body {
+  background: var(--black); color: var(--white);
+  font-family: var(--font-body); font-size: 16px;
+  line-height: 1.55; -webkit-font-smoothing: antialiased;
+}
+a { color: inherit; text-decoration: none; }
+
+/* NAV */
+.nav {
+  position: sticky; top: 0; z-index: 100;
+  display: flex; align-items: center; justify-content: space-between;
+  height: 60px; padding: 0 40px;
+  background: var(--black); border-bottom: 1px solid var(--grey-900);
+}
+.nav-logo {
+  font-family: var(--font-display); font-weight: 800; font-style: italic;
+  font-size: 20px; color: var(--white); text-transform: uppercase;
+  letter-spacing: -0.02em; white-space: nowrap;
+}
+.nav-back {
+  font-size: 11px; font-weight: 600; letter-spacing: 0.12em;
+  text-transform: uppercase; color: var(--grey-500);
+  transition: color 0.15s; display: flex; align-items: center; gap: 8px;
+}
+.nav-back::before { content: '←'; }
+.nav-back:hover { color: var(--white); }
+
+/* PAGE HEADER */
+.page-header {
+  padding: 80px 40px 48px;
+  border-bottom: 1px solid var(--grey-900);
+  max-width: 1160px; margin: 0 auto;
+}
+.page-label {
+  font-size: 10px; font-weight: 600; letter-spacing: 0.18em;
+  text-transform: uppercase; color: var(--grey-500); margin-bottom: 12px;
+}
+.page-title {
+  font-family: var(--font-display); font-weight: 800; font-style: italic;
+  font-size: clamp(48px, 7vw, 88px); text-transform: uppercase;
+  letter-spacing: -0.03em; line-height: 0.95; color: var(--white);
+}
+
+/* YEAR GROUPS */
+.container { max-width: 1160px; margin: 0 auto; padding: 0 40px 100px; }
+.year-group { margin-top: 64px; }
+.year-label {
+  font-family: var(--font-display); font-weight: 800; font-style: italic;
+  font-size: 13px; color: var(--red); text-transform: uppercase;
+  letter-spacing: 0.1em; margin-bottom: 0;
+  padding-bottom: 12px; border-bottom: 1px solid var(--grey-900);
+}
+.show-row {
+  display: grid; grid-template-columns: 100px 180px 1fr 140px;
+  align-items: center; gap: 0 24px;
+  padding: 14px 0; border-bottom: 1px solid var(--grey-900);
+  transition: background 0.1s;
+}
+.show-row:hover { background: rgba(255,255,255,0.02); padding-left: 8px; }
+.show-date  { font-size: 12px; font-weight: 500; letter-spacing: 0.06em; color: var(--grey-500); text-transform: uppercase; }
+.show-venue { font-size: 15px; font-weight: 500; color: var(--white); }
+.show-notes { font-size: 13px; color: var(--grey-500); }
+.show-city  { font-size: 12px; color: var(--grey-500); text-align: right; }
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-logo">Division&nbsp;7</div>
+  <a href="index.html" class="nav-back">Back</a>
+</nav>
+
+<div class="page-header">
+  <div class="page-label">Archive</div>
+  <h1 class="page-title">Past Shows</h1>
+</div>
+
+<div class="container">
+
+  <div class="year-group">
+    <div class="year-label">2025</div>
+    <div class="show-row"><span class="show-date">Oct 18</span><span class="show-venue">Pustervik</span><span class="show-notes">Sold out</span><span class="show-city">Gothenburg</span></div>
+    <div class="show-row"><span class="show-date">Sep 27</span><span class="show-venue">Kulturbolaget</span><span class="show-notes"></span><span class="show-city">Malmö</span></div>
+    <div class="show-row"><span class="show-date">Aug 14</span><span class="show-venue">Nalen</span><span class="show-notes"></span><span class="show-city">Stockholm</span></div>
+    <div class="show-row"><span class="show-date">Jun 07</span><span class="show-venue">Fållan</span><span class="show-notes">Sold out</span><span class="show-city">Stockholm</span></div>
+    <div class="show-row"><span class="show-date">Apr 19</span><span class="show-venue">KB</span><span class="show-notes"></span><span class="show-city">Malmö</span></div>
+    <div class="show-row"><span class="show-date">Mar 01</span><span class="show-venue">Trädgårn</span><span class="show-notes">Sold out</span><span class="show-city">Gothenburg</span></div>
+  </div>
+
+  <div class="year-group">
+    <div class="year-label">2024</div>
+    <div class="show-row"><span class="show-date">Dec 14</span><span class="show-venue">Pustervik</span><span class="show-notes">Hundhuvudet release</span><span class="show-city">Gothenburg</span></div>
+    <div class="show-row"><span class="show-date">Nov 02</span><span class="show-venue">Babel</span><span class="show-notes"></span><span class="show-city">Malmö</span></div>
+    <div class="show-row"><span class="show-date">Sep 21</span><span class="show-venue">Hus 7</span><span class="show-notes"></span><span class="show-city">Gothenburg</span></div>
+    <div class="show-row"><span class="show-date">May 18</span><span class="show-venue">Sticky Fingers</span><span class="show-notes">Sold out</span><span class="show-city">Gothenburg</span></div>
+    <div class="show-row"><span class="show-date">Feb 24</span><span class="show-venue">Debaser Strand</span><span class="show-notes"></span><span class="show-city">Stockholm</span></div>
+  </div>
+
+  <div class="year-group">
+    <div class="year-label">2023</div>
+    <div class="show-row"><span class="show-date">Nov 11</span><span class="show-venue">Pustervik</span><span class="show-notes">Paradis Garage release</span><span class="show-city">Gothenburg</span></div>
+    <div class="show-row"><span class="show-date">Sep 30</span><span class="show-venue">KB</span><span class="show-notes"></span><span class="show-city">Malmö</span></div>
+    <div class="show-row"><span class="show-date">Aug 05</span><span class="show-venue">Trädgårn</span><span class="show-notes">Sold out</span><span class="show-city">Gothenburg</span></div>
+    <div class="show-row"><span class="show-date">Jun 17</span><span class="show-venue">Way Out West</span><span class="show-notes">Festival</span><span class="show-city">Gothenburg</span></div>
+    <div class="show-row"><span class="show-date">Mar 04</span><span class="show-venue">Nalen</span><span class="show-notes"></span><span class="show-city">Stockholm</span></div>
+  </div>
+
+  <div class="year-group">
+    <div class="year-label">2022</div>
+    <div class="show-row"><span class="show-date">Dec 03</span><span class="show-venue">Pustervik</span><span class="show-notes">Sold out</span><span class="show-city">Gothenburg</span></div>
+    <div class="show-row"><span class="show-date">Oct 22</span><span class="show-venue">Kulturbolaget</span><span class="show-notes"></span><span class="show-city">Malmö</span></div>
+    <div class="show-row"><span class="show-date">Sep 10</span><span class="show-venue">Sticky Fingers</span><span class="show-notes"></span><span class="show-city">Gothenburg</span></div>
+  </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  @font-face {
+    font-family: 'Gellix';
+    src: url('../fonts/GellixRegular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Gellix';
+    src: url('../fonts/GellixBoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Gellix';
+    src: url('../fonts/GellixExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+  }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #f5f5f0; font-family: 'Gellix', sans-serif; padding: 24px; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .section { }
+  .section-title { font-size: 10px; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; color: #888880; margin-bottom: 6px; }
+  .token-row { display: flex; align-items: center; gap: 8px; padding: 5px 0; border-bottom: 1px solid #e8e8e0; }
+  .token-row:last-child { border-bottom: none; }
+  .dot { width: 20px; height: 20px; flex-shrink: 0; border: 1px solid rgba(0,0,0,0.1); }
+  .token-name { font-size: 11px; font-weight: 500; color: #2a2a28; flex: 1; }
+  .token-val  { font-size: 10px; font-family: 'Courier New', monospace; color: #888880; }
+</style>
+</head>
+<body>
+<div class="grid">
+  <div class="section">
+    <div class="section-title">Foreground</div>
+    <div class="token-row"><div class="dot" style="background:#0a0a0a"></div><span class="token-name">fg-primary</span><span class="token-val">#0a0a0a</span></div>
+    <div class="token-row"><div class="dot" style="background:#888880"></div><span class="token-name">fg-secondary</span><span class="token-val">#888880</span></div>
+    <div class="token-row"><div class="dot" style="background:#aaaaaa"></div><span class="token-name">fg-muted</span><span class="token-val">#aaaaaa</span></div>
+    <div class="token-row"><div class="dot" style="background:#f5f5f0; border:1px solid #d4d4ce;"></div><span class="token-name">fg-inverse</span><span class="token-val">#f5f5f0</span></div>
+    <div class="token-row"><div class="dot" style="background:#e8190e"></div><span class="token-name">fg-accent</span><span class="token-val">#e8190e</span></div>
+  </div>
+  <div class="section">
+    <div class="section-title">Background</div>
+    <div class="token-row"><div class="dot" style="background:#f5f5f0; border:1px solid #d4d4ce;"></div><span class="token-name">bg-primary</span><span class="token-val">#f5f5f0</span></div>
+    <div class="token-row"><div class="dot" style="background:#f0f0e8; border:1px solid #d4d4ce;"></div><span class="token-name">bg-secondary</span><span class="token-val">#f0f0e8</span></div>
+    <div class="token-row"><div class="dot" style="background:#ffffff; border:1px solid #d4d4ce;"></div><span class="token-name">bg-elevated</span><span class="token-val">#ffffff</span></div>
+    <div class="token-row"><div class="dot" style="background:#0a0a0a"></div><span class="token-name">bg-inverse</span><span class="token-val">#0a0a0a</span></div>
+    <div class="token-row"><div class="dot" style="background:#1a1a18"></div><span class="token-name">bg-card-dark</span><span class="token-val">#1a1a18</span></div>
+  </div>
+  <div class="section">
+    <div class="section-title">Border</div>
+    <div class="token-row"><div class="dot" style="background:#d4d4ce"></div><span class="token-name">border-subtle</span><span class="token-val">#d4d4ce</span></div>
+    <div class="token-row"><div class="dot" style="background:#c8c8c0"></div><span class="token-name">border-default</span><span class="token-val">#c8c8c0</span></div>
+    <div class="token-row"><div class="dot" style="background:#0a0a0a"></div><span class="token-name">border-strong</span><span class="token-val">#0a0a0a</span></div>
+    <div class="token-row"><div class="dot" style="background:#e8190e"></div><span class="token-name">border-accent</span><span class="token-val">#e8190e</span></div>
+  </div>
+  <div class="section">
+    <div class="section-title">Overlay</div>
+    <div class="token-row" style="background:#555; padding:5px 4px;"><div class="dot" style="background:rgba(0,0,0,0.45)"></div><span class="token-name" style="color:#eee">overlay-photo</span><span class="token-val" style="color:#bbb">rgba 0,0,0 .45</span></div>
+    <div class="token-row" style="background:#555; padding:5px 4px; border-top: 1px solid #666;"><div class="dot" style="background:rgba(0,0,0,0.65)"></div><span class="token-name" style="color:#eee">overlay-heavy</span><span class="token-val" style="color:#bbb">rgba 0,0,0 .65</span></div>
+  </div>
+</div>
+</body>
+</html>

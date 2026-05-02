@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  @font-face {
+    font-family: 'Gellix';
+    src: url('../fonts/GellixRegular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Gellix';
+    src: url('../fonts/GellixBoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Gellix';
+    src: url('../fonts/GellixExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+  }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #0a0a0a; font-family: 'Gellix', sans-serif; padding: 28px; display: flex; flex-direction: column; gap: 24px; }
+
+  /* Primary wordmark — dark bg */
+  .wordmark-dark { font-family: 'Gellix', sans-serif; font-weight: 800; font-style: italic; font-size: 64px; color: #f5f5f0; text-transform: uppercase; letter-spacing: -0.03em; line-height: 1.0; }
+
+  /* Wordmark — light bg */
+  .wordmark-light-wrap { background: #f5f5f0; padding: 20px 24px; }
+  .wordmark-light { font-family: 'Gellix', sans-serif; font-weight: 800; font-style: italic; font-size: 64px; color: #0a0a0a; text-transform: uppercase; letter-spacing: -0.03em; line-height: 1.0; }
+
+  /* Compact / nav size */
+  .row { display: flex; gap: 24px; align-items: center; flex-wrap: wrap; }
+  .size-label { font-size: 9px; letter-spacing: 0.1em; text-transform: uppercase; color: #555550; margin-bottom: 6px; }
+
+  /* Mono variant — all white */
+  .wordmark-mono { font-family: 'Gellix', sans-serif; font-weight: 800; font-style: italic; text-transform: uppercase; letter-spacing: -0.03em; color: #f5f5f0; }
+
+  /* D7 abbrev mark */
+  .abbrev { font-family: 'Gellix', sans-serif; font-weight: 800; font-style: italic; text-transform: uppercase; letter-spacing: -0.04em; color: #f5f5f0; }
+</style>
+</head>
+<body>
+  <div>
+    <div class="size-label">Wordmark — Dark Background</div>
+    <div class="wordmark-dark">Division 7</div>
+  </div>
+
+  <div class="wordmark-light-wrap">
+    <div class="size-label" style="color:#aaaaaa;">Wordmark — Light Background</div>
+    <div class="wordmark-light">Division 7</div>
+  </div>
+
+  <div>
+    <div class="size-label">Scale Variants</div>
+    <div class="row">
+      <div>
+        <div class="wordmark-mono" style="font-size:40px;">Division 7</div>
+      </div>
+      <div>
+        <div class="wordmark-mono" style="font-size:24px;">Division 7</div>
+      </div>
+      <div>
+        <div class="wordmark-mono" style="font-size:16px;">Division 7</div>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <div class="size-label">Abbreviated Mark</div>
+    <div class="row">
+      <div class="abbrev" style="font-size:72px;">D7</div>
+      <div class="abbrev" style="font-size:48px;">D7</div>
+      <div class="abbrev" style="font-size:32px;">D7</div>
+      <div style="background:#f5f5f0; padding:8px 12px;"><div class="abbrev" style="font-size:32px; color:#0a0a0a;">D7</div></div>
+    </div>
+  </div>
+</body>
+</html>

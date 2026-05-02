@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Division 7 — Past Shows</title>
+<meta name="description" content="Division 7 — full archive of past shows, 2022–2025.">
+<link rel="preload" href="fonts/GellixRegular.otf" as="font" type="font/otf" crossorigin>
+<link rel="preload" href="fonts/GellixExtraBoldItalic.otf" as="font" type="font/otf" crossorigin>
+<style>
+@font-face {
+  font-family: 'Gellix';
+  src: url('fonts/GellixRegular.otf') format('opentype');
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'Gellix';
+  src: url('fonts/GellixBoldItalic.otf') format('opentype');
+  font-weight: 700; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: 'Gellix';
+  src: url('fonts/GellixExtraBoldItalic.otf') format('opentype');
+  font-weight: 800; font-style: italic; font-display: swap;
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+:root {
+  --black:    #0a0a0a;
+  --grey-900: #1a1a18;
+  --grey-800: #2a2a28;
+  --grey-700: #3c3c38;
+  --grey-500: #888880;
+  --grey-400: #aaaaaa;
+  --grey-200: #d4d4ce;
+  --white:    #f5f5f0;
+  --red:      #e8190e;
+  --font-display: 'Gellix', sans-serif;
+  --font-body:    'Gellix', sans-serif;
+}
+
+body {
+  background: var(--black); color: var(--white);
+  font-family: var(--font-body); font-size: 16px;
+  line-height: 1.55; -webkit-font-smoothing: antialiased;
+}
+a { color: inherit; text-decoration: none; }
+
+.nav {
+  position: sticky; top: 0; z-index: 100;
+  display: flex; align-items: center; justify-content: space-between;
+  height: 60px; padding: 0 40px;
+  background: var(--black); border-bottom: 1px solid var(--grey-900);
+}
+.nav-logo {
+  font-family: var(--font-display); font-weight: 800; font-style: italic;
+  font-size: 20px; color: var(--white); text-transform: uppercase;
+  letter-spacing: -0.02em; white-space: nowrap;
+}
+.nav-back {
+  font-size: 11px; font-weight: 600; letter-spacing: 0.12em;
+  text-transform: uppercase; color: var(--grey-500);
+  transition: color 0.15s; display: flex; align-items: center; gap: 8px;
+}
+.nav-back::before { content: '←'; }
+.nav-back:hover { color: var(--white); }
+
+.page-header {
+  padding: 80px 40px 48px;
+  border-bottom: 1px solid var(--grey-900);
+  max-width: 1160px; margin: 0 auto;
+}
+.page-label {
+  font-size: 10px; font-weight: 600; letter-spacing: 0.18em;
+  text-transform: uppercase; color: var(--grey-500); margin-bottom: 12px;
+}
+.page-title {
+  font-family: var(--font-display); font-weight: 800; font-style: italic;
+  font-size: clamp(48px, 7vw, 88px); text-transform: uppercase;
+  letter-spacing: -0.03em; line-height: 0.95; color: var(--white);
+}
+
+.container { max-width: 1160px; margin: 0 auto; padding: 0 40px 100px; }
+.year-group { margin-top: 64px; }
+.year-label {
+  font-family: var(--font-display); font-weight: 800; font-style: italic;
+  font-size: 13px; color: var(--red); text-transform: uppercase;
+  letter-spacing: 0.1em; margin-bottom: 0;
+  padding-bottom: 12px; border-bottom: 1px solid var(--grey-900);
+}
+.show-row {
+  display: grid; grid-template-columns: 100px 180px 1fr 140px 60px;
+  align-items: center; gap: 0 24px;
+  padding: 14px 0; border-bottom: 1px solid var(--grey-900);
+  transition: background 0.1s, padding-left 0.15s;
+}
+.show-row:hover { background: rgba(255,255,255,0.02); padding-left: 8px; }
+.show-date  { font-size: 12px; font-weight: 500; letter-spacing: 0.06em; color: var(--grey-500); text-transform: uppercase; }
+.show-venue { font-size: 15px; font-weight: 500; color: var(--white); }
+.show-notes { font-size: 13px; color: var(--grey-500); }
+.show-city  { font-size: 12px; color: var(--grey-500); text-align: right; }
+.show-num   { font-family: 'Courier New', monospace; font-size: 11px; color: var(--grey-700); letter-spacing: 0.04em; text-align: right; }
+
+@media (max-width: 720px) {
+  .nav { padding: 0 20px; }
+  .page-header { padding: 56px 20px 32px; }
+  .container { padding: 0 20px 64px; }
+  .show-row { grid-template-columns: 70px 1fr 70px 44px; gap: 0 10px; }
+  .show-row .show-notes { display: none; }
+}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <a href="index.html" class="nav-logo">Division&nbsp;7</a>
+  <a href="index.html" class="nav-back">Back</a>
+</nav>
+
+<div class="page-header">
+  <div class="page-label">Archive</div>
+  <h1 class="page-title">Past Shows</h1>
+</div>
+
+<div class="container">
+
+  <div class="year-group">
+    <div class="year-label">2026</div>
+    <div class="show-row"><span class="show-date">Mar 28</span><span class="show-venue">Stadsgårdsterminalen</span><span class="show-notes">Långbro Feelin' releasespelning</span><span class="show-city">Stockholm</span></div>
+    <div class="show-row"><span class="show-date">Mar 27</span><span class="show-venue">Pet Sounds</span><span class="show-notes">Långbro Feelin' signering</span><span class="show-city">Stockholm</span></div>
+    <div class="show-row"><span class="show-date">Mar 07</span><span class="show-venue">Nyhetsmorgon TV4</span><span class="show-notes">Första TV-sändningen</span><span class="show-city">Stockholm</span></div>
+  </div>
+
+  <div class="year-group">
+    <div class="year-label">2025</div>
+    <div class="show-row"><span class="show-date">Nov 19</span><span class="show-venue">Kapellet Hus 7</span><span class="show-notes"></span><span class="show-city">Stockholm</span></div>
+    <div class="show-row"><span class="show-date">Nov 14</span><span class="show-venue">Pet Sounds Bar</span><span class="show-notes"></span><span class="show-city">Stockholm</span></div>
+    <div class="show-row"><span class="show-date">Okt 03</span><span class="show-venue">Plan B</span><span class="show-notes"></span><span class="show-city">Malmö</span></div>
+    <div class="show-row"><span class="show-date">Sep 26</span><span class="show-venue">Snerikes nation</span><span class="show-notes"></span><span class="show-city">Uppsala</span></div>
+    <div class="show-row"><span class="show-date">Sep 19</span><span class="show-venue">Filmstudion</span><span class="show-notes"></span><span class="show-city">Göteborg</span></div>
+    <div class="show-row"><span class="show-date">Sep 13</span><span class="show-venue">Fållan</span><span class="show-notes"></span><span class="show-city">Stockholm</span></div>
+    <div class="show-row"><span class="show-date">Sep 12</span><span class="show-venue">P4 Musikplats Stockholm</span><span class="show-notes"></span><span class="show-city">Stockholm</span></div>
+    <div class="show-row"><span class="show-date">Sep 11</span><span class="show-venue">by:Larm</span><span class="show-notes"></span><span class="show-city">Oslo</span></div>
+    <div class="show-row"><span class="show-date">Sep 06</span><span class="show-venue">Pustervik</span><span class="show-notes"></span><span class="show-city">Göteborg</span></div>
+    <div class="show-row"><span class="show-date">Sep 05</span><span class="show-venue">Live At Heart</span><span class="show-notes"></span><span class="show-city">Örebro</span></div>
+    <div class="show-row"><span class="show-date">Aug 30</span><span class="show-venue">LÅ Vibe</span><span class="show-notes"></span><span class="show-city">Luleå</span></div>
+    <div class="show-row"><span class="show-date">Aug 29</span><span class="show-venue">Almost A Festival</span><span class="show-notes"></span><span class="show-city">Uppsala</span></div>
+    <div class="show-row"><span class="show-date">Jul 26</span><span class="show-venue">Emmabodakalaset</span><span class="show-notes"></span><span class="show-city">Emmaboda</span></div>
+    <div class="show-row"><span class="show-date">Jul 25</span><span class="show-venue">Under Bar Himmel</span><span class="show-notes"></span><span class="show-city">Örebro</span></div>
+    <div class="show-row"><span class="show-date">Jun 07</span><span class="show-venue">Bröllop</span><span class="show-notes"></span><span class="show-city">Herräng</span></div>
+    <div class="show-row"><span class="show-date">Mar 26</span><span class="show-venue">Debaser</span><span class="show-notes"></span><span class="show-city">Stockholm</span></div>
+    <div class="show-row"><span class="show-date">Jan 04</span><span class="show-venue">Privatfest</span><span class="show-notes"></span><span class="show-city">Stockholm</span></div>
+  </div>
+
+  <div class="year-group">
+    <div class="year-label">2024</div>
+    <div class="show-row"><span class="show-date">Nov 16</span><span class="show-venue">Katalin</span><span class="show-notes"></span><span class="show-city">Uppsala</span></div>
+    <div class="show-row"><span class="show-date">Nov 09</span><span class="show-venue">Dynamo</span><span class="show-notes"></span><span class="show-city">Norrköping</span></div>
+    <div class="show-row"><span class="show-date">Nov 08</span><span class="show-venue">Biljardkompaniet</span><span class="show-notes"></span><span class="show-city">Kristianstad</span></div>
+    <div class="show-row"><span class="show-date">Okt 26</span><span class="show-venue">Kulturens Hus</span><span class="show-notes"></span><span class="show-city">Luleå</span></div>
+    <div class="show-row"><span class="show-date">Okt 25</span><span class="show-venue">Väven</span><span class="show-notes"></span><span class="show-city">Umeå</span></div>
+    <div class="show-row"><span class="show-date">Okt 24</span><span class="show-venue">Jazzköket</span><span class="show-notes"></span><span class="show-city">Östersund</span></div>
+    <div class="show-row"><span class="show-date">Okt 12</span><span class="show-venue">Plan B</span><span class="show-notes"></span><span class="show-city">Malmö</span></div>
+    <div class="show-row"><span class="show-date">Okt 11</span><span class="show-venue">Tivoli</span><span class="show-notes"></span><span class="show-city">Helsingborg</span></div>
+    <div class="show-row"><span class="show-date">Okt 10</span><span class="show-venue">Kafé Deluxe</span><span class="show-notes"></span><span class="show-city">Växjö</span></div>
+    <div class="show-row"><span class="show-date">Okt 05</span><span class="show-venue">Pustervik</span><span class="show-notes"></span><span class="show-city">Göteborg</span></div>
+    <div class="show-row"><span class="show-date">Okt 04</span><span class="show-venue">Skylten</span><span class="show-notes"></span><span class="show-city">Linköping</span></div>
+    <div class="show-row"><span class="show-date">Sep 14</span><span class="show-venue">Nöjesfabriken</span><span class="show-notes"></span><span class="show-city">Karlstad</span></div>
+    <div class="show-row"><span class="show-date">Sep 13</span><span class="show-venue">Live At Heart</span><span class="show-notes">P4 Örebro broadcast</span><span class="show-city">Örebro</span></div>
+    <div class="show-row"><span class="show-date">Aug 30</span><span class="show-venue">Folkets Hus</span><span class="show-notes"></span><span class="show-city">Vänersborg</span></div>
+    <div class="show-row"><span class="show-date">Aug 24</span><span class="show-venue">Herrljungafestivalen</span><span class="show-notes"></span><span class="show-city">Herrljunga</span></div>
+    <div class="show-row"><span class="show-date">Aug 02</span><span class="show-venue">Gott Snack Festival</span><span class="show-notes"></span><span class="show-city">Stockholm</span></div>
+    <div class="show-row"><span class="show-date">Jul 27</span><span class="show-venue">Musikfesten i Tullakrok</span><span class="show-notes"></span><span class="show-city">Ängelholm</span></div>
+    <div class="show-row"><span class="show-date">Jul 26</span><span class="show-venue">Strömsholmen</span><span class="show-notes">With Thomas Stenström</span><span class="show-city">Eskilstuna</span></div>
+    <div class="show-row"><span class="show-date">Jun 07</span><span class="show-venue">Under Bar Himmel</span><span class="show-notes"></span><span class="show-city">Örebro</span></div>
+    <div class="show-row"><span class="show-date">Maj 25</span><span class="show-venue">Stadgårdsterminalen</span><span class="show-notes">Septembernatt 100 releaser</span><span class="show-city">Stockholm</span></div>
+    <div class="show-row"><span class="show-date">Apr 20</span><span class="show-venue">Festivallen</span><span class="show-notes">Stångebrofältet</span><span class="show-city">Linköping</span></div>
+    <div class="show-row"><span class="show-date">Apr 19</span><span class="show-venue">Debaser</span><span class="show-notes"></span><span class="show-city">Stockholm</span></div>
+    <div class="show-row"><span class="show-date">Apr 13</span><span class="show-venue">Slazk Studio</span><span class="show-notes"></span><span class="show-city">Stockholm</span></div>
+    <div class="show-row"><span class="show-date">Mar 16</span><span class="show-venue">Yaki-Da</span><span class="show-notes"></span><span class="show-city">Göteborg</span></div>
+    <div class="show-row"><span class="show-date">Jan 16</span><span class="show-venue">Live Sweden</span><span class="show-notes"></span><span class="show-city">Skellefteå</span></div>
+  </div>
+
+  <div class="year-group">
+    <div class="year-label">2023</div>
+    <div class="show-row"><span class="show-date">Okt 14</span><span class="show-venue">Plan B</span><span class="show-notes"></span><span class="show-city">Malmö</span></div>
+    <div class="show-row"><span class="show-date">Sep 16</span><span class="show-venue">Pustervik</span><span class="show-notes"></span><span class="show-city">Göteborg</span></div>
+    <div class="show-row"><span class="show-date">Aug 05</span><span class="show-venue">Gott Snack Festival</span><span class="show-notes"></span><span class="show-city">Stockholm</span></div>
+    <div class="show-row"><span class="show-date">Aug 04</span><span class="show-venue">Tovastugan</span><span class="show-notes"></span><span class="show-city">Nyköping</span></div>
+    <div class="show-row"><span class="show-date">Jun 02</span><span class="show-venue">Privatfest</span><span class="show-notes"></span><span class="show-city">Stockholm</span></div>
+    <div class="show-row"><span class="show-date">Maj 19</span><span class="show-venue">Bar Brooklyn</span><span class="show-notes"></span><span class="show-city">Stockholm</span></div>
+    <div class="show-row"><span class="show-date">Maj 13</span><span class="show-venue">Privatfest</span><span class="show-notes">Björnes</span><span class="show-city">Örebro</span></div>
+    <div class="show-row"><span class="show-date">Apr 27</span><span class="show-venue">Kalmar Nation</span><span class="show-notes"></span><span class="show-city">Uppsala</span></div>
+    <div class="show-row"><span class="show-date">Apr 15</span><span class="show-venue">Blekingska nationen</span><span class="show-notes"></span><span class="show-city">Lund</span></div>
+    <div class="show-row"><span class="show-date">Feb 04</span><span class="show-venue">Skeppet</span><span class="show-notes"></span><span class="show-city">Göteborg</span></div>
+    <div class="show-row"><span class="show-date">Jan 28</span><span class="show-venue">Nalen Klubb</span><span class="show-notes"></span><span class="show-city">Stockholm</span></div>
+    <div class="show-row"><span class="show-date">Jan 27</span><span class="show-venue">Platens Bar</span><span class="show-notes"></span><span class="show-city">Linköping</span></div>
+  </div>
+
+  <div class="year-group">
+    <div class="year-label">2022</div>
+    <div class="show-row"><span class="show-date">Nov 26</span><span class="show-venue">Kafé Deluxe</span><span class="show-notes"></span><span class="show-city">Växjö</span></div>
+    <div class="show-row"><span class="show-date">Nov 05</span><span class="show-venue">Söderport</span><span class="show-notes"></span><span class="show-city">Kalmar</span></div>
+    <div class="show-row"><span class="show-date">Okt 01</span><span class="show-venue">Södra teatern</span><span class="show-notes">Gott Snack live</span><span class="show-city">Stockholm</span></div>
+    <div class="show-row"><span class="show-date">Sep 03</span><span class="show-venue">Konserthuset foajén</span><span class="show-notes">Live at heart</span><span class="show-city">Örebro</span></div>
+    <div class="show-row"><span class="show-date">Sep 03</span><span class="show-venue">Makeriet</span><span class="show-notes">Live at heart</span><span class="show-city">Örebro</span></div>
+    <div class="show-row"><span class="show-date">Sep 02</span><span class="show-venue">Kvarteret</span><span class="show-notes">Live at heart</span><span class="show-city">Örebro</span></div>
+    <div class="show-row"><span class="show-date">Aug 20</span><span class="show-venue">Privatfest</span><span class="show-notes"></span><span class="show-city">Stockholm</span></div>
+    <div class="show-row"><span class="show-date">Jul 30</span><span class="show-venue">Broken Dreams</span><span class="show-notes"></span><span class="show-city">Borlänge</span></div>
+    <div class="show-row"><span class="show-date">Jul 01</span><span class="show-venue">Tovastugan</span><span class="show-notes"></span><span class="show-city">Nyköping</span></div>
+    <div class="show-row"><span class="show-date">Jun 10</span><span class="show-venue">Oskars disputationsfest</span><span class="show-notes"></span><span class="show-city">Stockholm</span></div>
+    <div class="show-row"><span class="show-date">Jun 04</span><span class="show-venue">Spökparken</span><span class="show-notes">Svensexa</span><span class="show-city">Stockholm</span></div>
+    <div class="show-row"><span class="show-date">Jun 03</span><span class="show-venue">Musikhuset</span><span class="show-notes"></span><span class="show-city">Gävle</span></div>
+    <div class="show-row"><span class="show-date">Maj 27</span><span class="show-venue">Scalakällaren</span><span class="show-notes"></span><span class="show-city">Stockholm</span></div>
+    <div class="show-row"><span class="show-date">Maj 13</span><span class="show-venue">Grand</span><span class="show-notes"></span><span class="show-city">Malmö</span></div>
+    <div class="show-row"><span class="show-date">Maj 07</span><span class="show-venue">Svampen</span><span class="show-notes"></span><span class="show-city">Örebro</span></div>
+    <div class="show-row"><span class="show-date">Maj 06</span><span class="show-venue">Platens Bar</span><span class="show-notes"></span><span class="show-city">Linköping</span></div>
+    <div class="show-row"><span class="show-date">Apr 08</span><span class="show-venue">Nefertiti</span><span class="show-notes"></span><span class="show-city">Göteborg</span></div>
+    <div class="show-row"><span class="show-date">Apr 02</span><span class="show-venue">Bomber Bar</span><span class="show-notes"></span><span class="show-city">Motala</span></div>
+  </div>
+
+  <div class="year-group">
+    <div class="year-label">2021</div>
+    <div class="show-row"><span class="show-date">Nov 11</span><span class="show-venue">Nomad</span><span class="show-notes"></span><span class="show-city">Stockholm</span></div>
+    <div class="show-row"><span class="show-date">Okt 09</span><span class="show-venue">Vega Bryggeri</span><span class="show-notes"></span><span class="show-city">Göteborg</span></div>
+    <div class="show-row"><span class="show-date">Okt 02</span><span class="show-venue">Babel</span><span class="show-notes"></span><span class="show-city">Malmö</span></div>
+    <div class="show-row"><span class="show-date">Sep 18</span><span class="show-venue">Vintervikens trädgårdscafé</span><span class="show-notes"></span><span class="show-city">Stockholm</span></div>
+    <div class="show-row"><span class="show-date">Sep 04</span><span class="show-venue">Makeriet magasinet</span><span class="show-notes">Live at heart</span><span class="show-city">Örebro</span></div>
+    <div class="show-row"><span class="show-date">Sep 04</span><span class="show-venue">Makeriet</span><span class="show-notes">Live at heart</span><span class="show-city">Örebro</span></div>
+    <div class="show-row"><span class="show-date">Sep 03</span><span class="show-venue">Konserthuset</span><span class="show-notes">Live at heart</span><span class="show-city">Örebro</span></div>
+    <div class="show-row"><span class="show-date">Aug 21</span><span class="show-venue">Gula villan</span><span class="show-notes"></span><span class="show-city">Stockholm</span></div>
+    <div class="show-row"><span class="show-date">Jul 09</span><span class="show-venue">Tovastugan</span><span class="show-notes"></span><span class="show-city">Nyköping</span></div>
+    <div class="show-row"><span class="show-date">Jul 08</span><span class="show-venue">Fåfängan</span><span class="show-notes"></span><span class="show-city">Nyköping</span></div>
+    <div class="show-row"><span class="show-date">Jun 17</span><span class="show-venue">Nomad</span><span class="show-notes"></span><span class="show-city">Stockholm</span></div>
+    <div class="show-row"><span class="show-date">Jun 16</span><span class="show-venue">Nomad</span><span class="show-notes"></span><span class="show-city">Stockholm</span></div>
+    <div class="show-row"><span class="show-date">Jun 15</span><span class="show-venue">Musslan</span><span class="show-notes"></span><span class="show-city">Stockholm</span></div>
+  </div>
+
+  <div class="year-group">
+    <div class="year-label">2020</div>
+    <div class="show-row"><span class="show-date">Okt 16</span><span class="show-venue">Skylten</span><span class="show-notes">Klubb John Doe</span><span class="show-city">Linköping</span></div>
+    <div class="show-row"><span class="show-date">Sep 10</span><span class="show-venue">Nomad</span><span class="show-notes"></span><span class="show-city">Stockholm</span></div>
+    <div class="show-row"><span class="show-date">Aug 27</span><span class="show-venue">Musslan</span><span class="show-notes"></span><span class="show-city">Stockholm</span></div>
+    <div class="show-row"><span class="show-date">Aug 26</span><span class="show-venue">Musslan</span><span class="show-notes"></span><span class="show-city">Stockholm</span></div>
+    <div class="show-row"><span class="show-date">Jun 06</span><span class="show-venue">Live Takeaway</span><span class="show-notes">Streamed</span><span class="show-city">Stockholm</span></div>
+    <div class="show-row"><span class="show-date">Feb 22</span><span class="show-venue">Jerntorgets Brygghus</span><span class="show-notes"></span><span class="show-city">Göteborg</span></div>
+  </div>
+
+  <div class="year-group">
+    <div class="year-label">2019</div>
+    <div class="show-row"><span class="show-date">Dec 20</span><span class="show-venue">Brother Tuck</span><span class="show-notes"></span><span class="show-city">Stockholm</span></div>
+    <div class="show-row"><span class="show-date">Okt 30</span><span class="show-venue">Snotty Seaside</span><span class="show-notes"></span><span class="show-city">Stockholm</span></div>
+    <div class="show-row"><span class="show-date">Jun 13</span><span class="show-venue">Scalakällaren</span><span class="show-notes"></span><span class="show-city">Stockholm</span></div>
+    <div class="show-row"><span class="show-date">Jun 08</span><span class="show-venue">Sliten popfest</span><span class="show-notes"></span><span class="show-city">Hisingen</span></div>
+    <div class="show-row"><span class="show-date">Maj 25</span><span class="show-venue">Fryshuset</span><span class="show-notes">Emergenza Stockholm final</span><span class="show-city">Stockholm</span></div>
+    <div class="show-row"><span class="show-date">Maj 24</span><span class="show-venue">Barn- och ungdomsfestivalen</span><span class="show-notes"></span><span class="show-city">Köping</span></div>
+    <div class="show-row"><span class="show-date">Maj 03</span><span class="show-venue">Fryshuset</span><span class="show-notes">Emergenza semifinal</span><span class="show-city">Stockholm</span></div>
+    <div class="show-row"><span class="show-date">Maj 03</span><span class="show-venue">Oskars festlokal</span><span class="show-notes"></span><span class="show-city">Stockholm</span></div>
+    <div class="show-row"><span class="show-date">Mar 23</span><span class="show-venue">Brother Tuck</span><span class="show-notes"></span><span class="show-city">Stockholm</span></div>
+  </div>
+
+  <div class="year-group">
+    <div class="year-label">2018</div>
+    <div class="show-row"><span class="show-date">Okt 22</span><span class="show-venue">Nalen Klubb</span><span class="show-notes"></span><span class="show-city">Stockholm</span></div>
+    <div class="show-row"><span class="show-date">Sep 29</span><span class="show-venue">Emergenza qualifier</span><span class="show-notes"></span><span class="show-city">Stockholm</span></div>
+    <div class="show-row"><span class="show-date">Sep 26</span><span class="show-venue">Lilla Hotellbaren</span><span class="show-notes">Scandic Malmen</span><span class="show-city">Stockholm</span></div>
+    <div class="show-row"><span class="show-date">Sep 08</span><span class="show-venue">Privatfest</span><span class="show-notes"></span><span class="show-city">Stockholm</span></div>
+    <div class="show-row"><span class="show-date">Aug 24</span><span class="show-venue">PSB</span><span class="show-notes"></span><span class="show-city">Stockholm</span></div>
+    <div class="show-row"><span class="show-date">Maj 26</span><span class="show-venue">Stora Torget 3 Bistro &amp; Bar</span><span class="show-notes">Barn- och ungdomsfestivalen</span><span class="show-city">Köping</span></div>
+    <div class="show-row"><span class="show-date">Maj 18</span><span class="show-venue">Södertörns Högskola</span><span class="show-notes">Sommarfesten 2018</span><span class="show-city">Stockholm</span></div>
+    <div class="show-row"><span class="show-date">Maj 17</span><span class="show-venue">PSB</span><span class="show-notes"></span><span class="show-city">Stockholm</span></div>
+    <div class="show-row"><span class="show-date">Maj 13</span><span class="show-venue">The Auld Dub</span><span class="show-notes"></span><span class="show-city">Stockholm</span></div>
+    <div class="show-row"><span class="show-date">Apr 24</span><span class="show-venue">Noel's</span><span class="show-notes"></span><span class="show-city">Stockholm</span></div>
+    <div class="show-row"><span class="show-date">Feb 24</span><span class="show-venue">Medusa Bar</span><span class="show-notes"></span><span class="show-city">Stockholm</span></div>
+  </div>
+
+  <div class="year-group">
+    <div class="year-label">2017</div>
+    <div class="show-row"><span class="show-date">Aug 04</span><span class="show-venue">PSB</span><span class="show-notes"></span><span class="show-city">Stockholm</span></div>
+  </div>
+
+</div>
+
+<script>
+  (function() {
+    const rows = document.querySelectorAll('.show-row');
+    const total = rows.length;
+    rows.forEach((row, i) => {
+      const span = document.createElement('span');
+      span.className = 'show-num';
+      span.textContent = '#' + (total - i);
+      row.appendChild(span);
+    });
+  })();
+</script>
+
+</body>
+</html>

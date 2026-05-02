@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Colors — Base Palette</title>
+<style>
+  @font-face {
+    font-family: 'Gellix';
+    src: url('../fonts/GellixRegular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Gellix';
+    src: url('../fonts/GellixBoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Gellix';
+    src: url('../fonts/GellixExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #f5f5f0; font-family: 'Gellix', sans-serif; padding: 24px; }
+    .row { display: flex; gap: 0; }
+  .swatch { flex: 1; height: 64px; position: relative; }
+  .labels { display: flex; gap: 0; }
+  .label-item { flex: 1; padding: 6px 0 0 0; }
+  .label-name { font-size: 10px; font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; color: #555550; display: block; }
+  .label-hex  { font-size: 10px; font-family: 'Courier New', monospace; color: #888880; display: block; margin-top: 1px; }
+  .section-title { font-size: 10px; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; color: #888880; margin-bottom: 8px; margin-top: 18px; }
+  .section-title:first-child { margin-top: 0; }
+  .red-row { display: flex; gap: 0; }
+  .red-row .swatch { height: 64px; }
+</style>
+</head>
+<body>
+  <div class="section-title">Neutrals</div>
+  <div class="row">
+    <div class="swatch" style="background:#0a0a0a;"></div>
+    <div class="swatch" style="background:#1a1a18;"></div>
+    <div class="swatch" style="background:#2a2a28;"></div>
+    <div class="swatch" style="background:#3c3c38;"></div>
+    <div class="swatch" style="background:#555550;"></div>
+    <div class="swatch" style="background:#888880;"></div>
+    <div class="swatch" style="background:#aaaaaa;"></div>
+    <div class="swatch" style="background:#c8c8c0;"></div>
+    <div class="swatch" style="background:#d4d4ce;"></div>
+    <div class="swatch" style="background:#e8e8e0;"></div>
+    <div class="swatch" style="background:#f0f0e8; border: 1px solid #d4d4ce;"></div>
+    <div class="swatch" style="background:#f5f5f0; border: 1px solid #d4d4ce;"></div>
+  </div>
+  <div class="labels">
+    <div class="label-item"><span class="label-name">Black</span><span class="label-hex">#0a0a0a</span></div>
+    <div class="label-item"><span class="label-name">900</span><span class="label-hex">#1a1a18</span></div>
+    <div class="label-item"><span class="label-name">800</span><span class="label-hex">#2a2a28</span></div>
+    <div class="label-item"><span class="label-name">700</span><span class="label-hex">#3c3c38</span></div>
+    <div class="label-item"><span class="label-name">600</span><span class="label-hex">#555550</span></div>
+    <div class="label-item"><span class="label-name">500</span><span class="label-hex">#888880</span></div>
+    <div class="label-item"><span class="label-name">400</span><span class="label-hex">#aaaaaa</span></div>
+    <div class="label-item"><span class="label-name">300</span><span class="label-hex">#c8c8c0</span></div>
+    <div class="label-item"><span class="label-name">200</span><span class="label-hex">#d4d4ce</span></div>
+    <div class="label-item"><span class="label-name">100</span><span class="label-hex">#e8e8e0</span></div>
+    <div class="label-item"><span class="label-name">050</span><span class="label-hex">#f0f0e8</span></div>
+    <div class="label-item"><span class="label-name">White</span><span class="label-hex">#f5f5f0</span></div>
+  </div>
+
+  <div class="section-title">Red — Accent</div>
+  <div class="red-row">
+    <div class="swatch" style="background:#b81208; flex: 1;"></div>
+    <div class="swatch" style="background:#e8190e; flex: 2;"></div>
+    <div class="swatch" style="background:#ff3322; flex: 1;"></div>
+  </div>
+  <div class="labels">
+    <div class="label-item" style="flex:1"><span class="label-name">Dark</span><span class="label-hex">#b81208</span></div>
+    <div class="label-item" style="flex:2"><span class="label-name">Red (primary)</span><span class="label-hex">#e8190e</span></div>
+    <div class="label-item" style="flex:1"><span class="label-name">Light</span><span class="label-hex">#ff3322</span></div>
+  </div>
+</body>
+</html>

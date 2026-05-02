@@ -1,13 +1,21 @@
-# netlify.toml
-
 [build]
-  command = "hugo mod get -u && hugo --gc --minify -b $URL"
-  publish = "public"
+  publish = "."
 
-[build.environment]
-  HUGO_VERSION = "0.119.0"
-  NODE_ENV = "production"
-  TZ = "GMT+1"  # Set to preferred timezone
+[[headers]]
+  for = "/fonts/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+    Access-Control-Allow-Origin = "*"
 
-[context.production.environment]
-  HUGO_ENV = "production"
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    Referrer-Policy = "strict-origin-when-cross-origin"

@@ -1,0 +1,261 @@
+/* ============================================================
+   DIVISION 7 — Design Tokens
+   colors_and_type.css
+   ============================================================ */
+
+@font-face {
+  font-family: 'Gellix';
+  src: url('./fonts/GellixRegular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gellix';
+  src: url('./fonts/GellixBoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gellix';
+  src: url('./fonts/GellixExtraBoldItalic.otf') format('opentype');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ============================================================
+   COLOR PRIMITIVES
+   ============================================================ */
+:root {
+  /* Base palette */
+  --color-black:        #0a0a0a;
+  --color-black-rich:   #000000;
+  --color-grey-900:     #1a1a18;
+  --color-grey-800:     #2a2a28;
+  --color-grey-700:     #3c3c38;
+  --color-grey-600:     #555550;
+  --color-grey-500:     #888880;
+  --color-grey-400:     #aaaaaa;
+  --color-grey-300:     #c8c8c0;
+  --color-grey-200:     #d4d4ce;
+  --color-grey-100:     #e8e8e0;
+  --color-grey-050:     #f0f0e8;
+  --color-white:        #f5f5f0;
+  --color-white-pure:   #ffffff;
+
+  /* Accent */
+  --color-red:          #e8190e;
+  --color-red-dark:     #b81208;
+  --color-red-light:    #ff3322;
+
+  /* ============================================================
+     SEMANTIC COLORS — light mode (default)
+     ============================================================ */
+  --fg-primary:         var(--color-black);
+  --fg-secondary:       var(--color-grey-500);
+  --fg-muted:           var(--color-grey-400);
+  --fg-inverse:         var(--color-white);
+  --fg-accent:          var(--color-red);
+
+  --bg-primary:         var(--color-white);
+  --bg-secondary:       var(--color-grey-050);
+  --bg-elevated:        var(--color-white-pure);
+  --bg-inverse:         var(--color-black);
+  --bg-card:            var(--color-white-pure);
+
+  --border-subtle:      var(--color-grey-200);
+  --border-default:     var(--color-grey-300);
+  --border-strong:      var(--color-black);
+  --border-accent:      var(--color-red);
+
+  --overlay-photo:      rgba(0, 0, 0, 0.45);
+  --overlay-photo-heavy: rgba(0, 0, 0, 0.65);
+
+  /* ============================================================
+     SEMANTIC COLORS — dark mode
+     ============================================================ */
+  --fg-primary-dark:    var(--color-white);
+  --fg-secondary-dark:  var(--color-grey-400);
+  --fg-muted-dark:      var(--color-grey-500);
+  --fg-accent-dark:     var(--color-red);
+
+  --bg-primary-dark:    var(--color-black);
+  --bg-secondary-dark:  var(--color-grey-900);
+  --bg-elevated-dark:   var(--color-grey-900);
+  --bg-card-dark:       var(--color-grey-900);
+
+  --border-subtle-dark:  var(--color-grey-800);
+  --border-default-dark: var(--color-grey-700);
+  --border-strong-dark:  var(--color-white);
+
+  /* ============================================================
+     TYPOGRAPHY PRIMITIVES
+     ============================================================ */
+  --font-display:       'Gellix', sans-serif;
+  --font-body:          'Gellix', sans-serif;
+  --font-mono:          'Courier New', 'Courier', monospace;
+
+  --font-weight-display: 800;
+  --font-style-display:  italic;
+  --font-weight-body:    400;
+  --font-weight-medium:  500;
+  --font-weight-semi:    600;
+
+  /* Type scale — base 16px */
+  --text-xs:   11px;
+  --text-sm:   13px;
+  --text-base: 16px;
+  --text-md:   18px;
+  --text-lg:   22px;
+  --text-xl:   28px;
+  --text-2xl:  36px;
+  --text-3xl:  48px;
+  --text-4xl:  64px;
+  --text-5xl:  80px;
+  --text-6xl:  112px;
+
+  /* Leading */
+  --leading-tight:  1.05;
+  --leading-snug:   1.15;
+  --leading-normal: 1.55;
+  --leading-loose:  1.75;
+
+  /* Tracking */
+  --tracking-tight:  -0.03em;
+  --tracking-normal:  0em;
+  --tracking-wide:    0.08em;
+  --tracking-widest:  0.18em;
+
+  /* ============================================================
+     SPACING SCALE
+     ============================================================ */
+  --space-1:    4px;
+  --space-2:    8px;
+  --space-3:    12px;
+  --space-4:    16px;
+  --space-5:    20px;
+  --space-6:    24px;
+  --space-8:    32px;
+  --space-10:   40px;
+  --space-12:   48px;
+  --space-16:   64px;
+  --space-20:   80px;
+  --space-24:   96px;
+  --space-32:  128px;
+
+  /* ============================================================
+     LAYOUT
+     ============================================================ */
+  --container-max:  1200px;
+  --container-wide: 1440px;
+
+  /* ============================================================
+     BORDERS
+     ============================================================ */
+  --radius:       0px;    /* Division 7 uses zero radius */
+  --border-width: 1px;
+  --border-style: solid;
+
+  /* ============================================================
+     TRANSITIONS
+     ============================================================ */
+  --transition-fast:   opacity 0.15s ease;
+  --transition-base:   opacity 0.2s ease, color 0.15s ease, background 0.15s ease;
+  --transition-slow:   opacity 0.3s ease;
+
+  /* ============================================================
+     Z-INDEX SCALE
+     ============================================================ */
+  --z-base:    0;
+  --z-raised:  10;
+  --z-overlay: 100;
+  --z-modal:   200;
+  --z-header:  300;
+}
+
+/* ============================================================
+   SEMANTIC ELEMENT STYLES
+   ============================================================ */
+
+/* Headings — Gellix Extra Bold Italic */
+h1, h2, h3, h4 {
+  font-family:    var(--font-display);
+  font-weight:    var(--font-weight-display);
+  font-style:     var(--font-style-display);
+  line-height:    var(--leading-tight);
+  letter-spacing: var(--tracking-tight);
+  margin:         0;
+  text-transform: uppercase;
+}
+
+h1 { font-size: var(--text-5xl); }
+h2 { font-size: var(--text-4xl); }
+h3 { font-size: var(--text-3xl); }
+h4 { font-size: var(--text-2xl); }
+
+/* Body text */
+p, li, td {
+  font-family: var(--font-body);
+  font-weight: var(--font-weight-body);
+  font-size:   var(--text-base);
+  line-height: var(--leading-normal);
+  margin:      0;
+}
+
+/* Small / label text */
+.label, caption, figcaption {
+  font-family:    var(--font-body);
+  font-size:      var(--text-sm);
+  font-weight:    var(--font-weight-medium);
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+  color:          var(--fg-secondary);
+}
+
+/* Mono */
+code, pre, .mono {
+  font-family: var(--font-mono);
+  font-size:   var(--text-sm);
+  line-height: var(--leading-snug);
+}
+
+/* Links */
+a {
+  color:           inherit;
+  text-decoration: none;
+  transition:      var(--transition-fast);
+}
+a:hover { color: var(--color-red); }
+
+/* ============================================================
+   UTILITY CLASSES
+   ============================================================ */
+
+/* Dark section — apply to any section for dark treatment */
+.section-dark {
+  background:  var(--color-black);
+  color:       var(--color-white);
+}
+.section-dark h1,
+.section-dark h2,
+.section-dark h3,
+.section-dark h4 { color: var(--color-white); }
+.section-dark p,
+.section-dark li  { color: var(--color-grey-400); }
+
+/* Accent */
+.text-accent   { color: var(--color-red); }
+.border-accent { border-color: var(--color-red); }
+
+/* Container */
+.container {
+  max-width:    var(--container-max);
+  margin-left:  auto;
+  margin-right: auto;
+  padding-left: var(--space-8);
+  padding-right: var(--space-8);
+}

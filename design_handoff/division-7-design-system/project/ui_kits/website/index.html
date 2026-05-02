@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Division 7 — Band Website</title>
+<style>
+@font-face {
+  font-family: 'Gellix';
+  src: url('../../fonts/GellixRegular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gellix';
+  src: url('../../fonts/GellixBoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gellix';
+  src: url('../../fonts/GellixExtraBoldItalic.otf') format('opentype');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+/* ── RESET & BASE ─────────────────────────────── */
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+
+:root {
+  --black:       #0a0a0a;
+  --grey-900:    #1a1a18;
+  --grey-800:    #2a2a28;
+  --grey-700:    #3c3c38;
+  --grey-500:    #888880;
+  --grey-300:    #c8c8c0;
+  --grey-200:    #d4d4ce;
+  --grey-100:    #e8e8e0;
+  --white:       #f5f5f0;
+  --red:         #e8190e;
+  --red-dark:    #b81208;
+  --font-display: 'Gellix', 'Gellix', sans-serif;
+  --font-body:    'Gellix', sans-serif;
+}
+
+body {
+  background: var(--black);
+  color: var(--white);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: inherit; text-decoration: none; }
+img { display: block; width: 100%; }
+button { cursor: pointer; border: none; font-family: inherit; }
+
+/* ── LAYOUT ───────────────────────────────────── */
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+/* ── NAVIGATION ──────────────────────────────── */
+.nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  display: flex; align-items: center; justify-content: space-between;
+  height: 60px;
+  padding: 0 40px;
+  border-bottom: 1px solid transparent;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+.nav.scrolled {
+  background: var(--black);
+  border-bottom-color: var(--grey-900);
+}
+.nav-logo {
+  font-family: var(--font-display);
+  font-weight: 800; font-style: italic;
+  font-size: 22px; color: var(--white);
+  text-transform: uppercase; letter-spacing: -0.02em;
+  white-space: nowrap;
+}
+.nav-links {
+  display: flex; gap: 36px;
+}
+.nav-links a {
+  font-size: 11px; font-weight: 600;
+  letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--grey-500);
+  transition: color 0.15s;
+}
+.nav-links a:hover,
+.nav-links a.active { color: var(--white); }
+.nav-cta {
+  background: var(--white); color: var(--black);
+  font-size: 11px; font-weight: 600;
+  letter-spacing: 0.12em; text-transform: uppercase;
+  padding: 10px 20px;
+  transition: background 0.15s, color 0.15s;
+}
+.nav-cta:hover { background: var(--red); color: var(--white); }
+
+/* ── HERO ─────────────────────────────────────── */
+.hero {
+  position: relative; height: 100vh; min-height: 600px;
+  display: flex; align-items: flex-end;
+  overflow: hidden;
+}
+.hero-bg {
+  position: absolute; inset: 0;
+  background-image: url('../../assets/fallan-wide.jpg');
+  background-size: cover; background-position: center 30%;
+  filter: grayscale(1) contrast(1.05);
+}
+.hero-overlay {
+  position: absolute; inset: 0;
+  background: linear-gradient(to top, rgba(10,10,10,0.92) 0%, rgba(10,10,10,0.3) 50%, rgba(10,10,10,0.1) 100%);
+}
+.hero-content {
+  position: relative; z-index: 1;
+  width: 100%; padding: 0 40px 72px;
+}
+.hero-label {
+  font-size: 11px; font-weight: 600; letter-spacing: 0.18em;
+  text-transform: uppercase; color: var(--red);
+  margin-bottom: 16px;
+}
+.hero-title {
+  font-family: var(--font-display);
+  font-weight: 800; font-style: italic;
+  font-size: clamp(64px, 10vw, 120px);
+  color: var(--white); text-transform: uppercase;
+  letter-spacing: -0.03em; line-height: 0.92;
+  margin-bottom: 32px;
+  white-space: nowrap;
+}
+.hero-actions { display: flex; gap: 12px; align-items: center; }
+.btn-primary {
+  background: var(--white); color: var(--black);
+  font-size: 12px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase;
+  padding: 14px 32px;
+  transition: background 0.15s, color 0.15s;
+}
+.btn-primary:hover { background: var(--red); color: var(--white); }
+.btn-outline {
+  background: transparent; color: var(--white);
+  font-size: 12px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase;
+  padding: 13px 32px; border: 1px solid rgba(245,245,240,0.3);
+  transition: border-color 0.15s, color 0.15s;
+}
+.btn-outline:hover { border-color: var(--white); }
+.hero-scroll {
+  position: absolute; bottom: 28px; right: 40px; z-index: 1;
+  font-size: 10px; font-weight: 500; letter-spacing: 0.16em;
+  text-transform: uppercase; color: var(--grey-500);
+  display: flex; align-items: center; gap: 8px;
+}
+.hero-scroll::before {
+  content: ''; display: block; width: 40px; height: 1px; background: var(--grey-700);
+}
+
+/* ── SECTION HEADER ──────────────────────────── */
+.section-header {
+  display: flex; align-items: baseline; justify-content: space-between;
+  padding-bottom: 16px; border-bottom: 1px solid var(--grey-900);
+  margin-bottom: 32px;
+}
+.section-label {
+  font-size: 10px; font-weight: 600; letter-spacing: 0.18em;
+  text-transform: uppercase; color: var(--grey-500);
+}
+.section-title-large {
+  font-family: var(--font-display);
+  font-weight: 800; font-style: italic;
+  font-size: clamp(36px, 5vw, 56px);
+  text-transform: uppercase; letter-spacing: -0.03em; line-height: 1.0;
+  color: var(--white);
+}
+.section-link {
+  font-size: 11px; font-weight: 600; letter-spacing: 0.12em;
+  text-transform: uppercase; color: var(--grey-500);
+  transition: color 0.15s;
+}
+.section-link:hover { color: var(--red); }
+
+/* ── SHOWS ────────────────────────────────────── */
+.shows-section { padding: 100px 0; }
+.show-row {
+  display: grid; grid-template-columns: 120px 160px 1fr auto;
+  align-items: center; gap: 0 32px;
+  padding: 20px 0; border-bottom: 1px solid var(--grey-900);
+  transition: background 0.1s;
+}
+.show-row:hover { background: rgba(255,255,255,0.02); }
+.show-date {
+  font-family: var(--font-display);
+  font-weight: 800; font-style: italic;
+  font-size: 28px; color: var(--white);
+  text-transform: uppercase; letter-spacing: -0.02em; line-height: 1.0;
+}
+.show-date .month { font-size: 13px; display: block; color: var(--grey-500); font-family: var(--font-body); font-weight: 500; font-style: normal; letter-spacing: 0.1em; margin-bottom: 2px; }
+.show-city  { font-size: 14px; color: var(--grey-500); letter-spacing: 0.04em; align-self: center; }
+.show-venue { font-size: 16px; font-weight: 500; color: var(--white); align-self: center; }
+.show-btn {
+  background: var(--white); color: var(--black);
+  font-size: 11px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase;
+  padding: 10px 20px;
+  transition: background 0.15s, color 0.15s;
+  white-space: nowrap;
+}
+.show-btn:hover { background: var(--red); color: var(--white); }
+.show-btn.disabled { background: transparent; color: var(--red); border: 1px solid var(--grey-800); cursor: default; }
+
+/* ── BOOKING LINK ─────────────────────────────── */
+.booking-link { margin-top: 28px; padding-top: 24px; border-top: 1px solid var(--grey-900); }
+.booking-anchor {
+  font-size: 12px; font-weight: 600; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--grey-500);
+  transition: color 0.15s;
+}
+.booking-anchor:hover { color: var(--white); }
+
+/* ── MUSIC ────────────────────────────────────── */
+.music-section { padding: 100px 0; background: var(--grey-900); }
+.releases-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--grey-800); }
+.release-card { background: var(--grey-900); overflow: hidden; position: relative; }
+.release-art {
+  aspect-ratio: 1;
+  background: var(--grey-800);
+  display: flex; align-items: center; justify-content: center;
+  overflow: hidden; position: relative;
+}
+.release-art img { object-fit: cover; height: 100%; transition: transform 0.3s ease; }
+.release-card a { display: block; }
+.release-card a .release-art img { transition: transform 0.3s ease; }
+.release-card a:hover .release-art img { transform: scale(1.04); }
+.release-card:hover .release-art img { transform: scale(1.04); }
+.release-art-placeholder {
+  font-family: var(--font-display); font-weight: 800; font-style: italic;
+  font-size: 48px; color: var(--grey-700); text-transform: uppercase; letter-spacing: -0.04em;
+}
+.release-info { padding: 16px; border-top: 1px solid var(--grey-800); }
+.release-name {
+  font-family: var(--font-display); font-weight: 800; font-style: italic;
+  font-size: 18px; color: var(--white); text-transform: uppercase; letter-spacing: -0.01em;
+}
+.release-meta { font-size: 11px; color: var(--grey-500); margin-top: 4px; letter-spacing: 0.04em; }
+
+
+/* ── ABOUT ────────────────────────────────────── */
+.about-section { padding: 100px 0; }
+.about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: start; }
+.about-image { position: relative; }
+.about-image img { width: 100%; filter: grayscale(1) contrast(1.1); }
+.about-text {}
+.about-tagline {
+  font-family: var(--font-display); font-weight: 800; font-style: italic;
+  font-size: clamp(28px, 4vw, 44px); text-transform: uppercase; letter-spacing: -0.03em;
+  line-height: 1.0; color: var(--white); margin-bottom: 24px;
+}
+.about-tagline .accent { color: var(--red); }
+.about-body { font-size: 15px; color: var(--grey-500); line-height: 1.65; }
+.about-body p + p { margin-top: 16px; }
+.about-stat-row { display: flex; gap: 40px; margin-top: 40px; padding-top: 32px; border-top: 1px solid var(--grey-900); }
+.stat {}
+.stat-num { font-family: var(--font-display); font-weight: 800; font-style: italic; font-size: 40px; color: var(--white); text-transform: uppercase; letter-spacing: -0.03em; line-height: 1.0; }
+.stat-label { font-size: 10px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--grey-500); margin-top: 4px; }
+
+/* ── FULL-BLEED PHOTO ─────────────────────────── */
+.photo-break {
+  height: 480px; position: relative; overflow: hidden;
+}
+.photo-break img { width: 100%; height: 100%; object-fit: cover; filter: grayscale(1) contrast(1.05); }
+.photo-break-overlay {
+  position: absolute; inset: 0;
+  background: rgba(10,10,10,0.5);
+  display: flex; align-items: center; justify-content: center;
+}
+.photo-break-text {
+  font-family: var(--font-display); font-weight: 800; font-style: italic;
+  font-size: clamp(48px, 8vw, 96px); color: var(--white);
+  text-transform: uppercase; letter-spacing: -0.03em; line-height: 1.0;
+  text-align: center;
+}
+.photo-break-text .line-red { color: var(--red); }
+
+/* ── NEWSLETTER SECTION ─────────────────────── */
+.newsletter-section {
+  background: var(--grey-900);
+  border-top: 1px solid var(--grey-800);
+  border-bottom: 1px solid var(--grey-800);
+  padding: 80px 0;
+  position: relative;
+  overflow: hidden;
+}
+.newsletter-section::before {
+  content: '';
+  position: absolute; inset: 0;
+  background-image: url('../../assets/pustervik-surf-crop.jpg');
+  background-size: cover; background-position: center 40%;
+  filter: grayscale(1) contrast(1.05);
+  opacity: 0.15;
+}
+.newsletter-inner {
+  max-width: 560px;
+  position: relative; z-index: 1;
+}
+.newsletter-title {
+  font-family: var(--font-display); font-weight: 800; font-style: italic;
+  font-size: clamp(32px, 4vw, 52px); text-transform: uppercase;
+  letter-spacing: -0.03em; line-height: 1.0; color: var(--white);
+  margin-bottom: 12px;
+}
+.newsletter-sub {
+  font-size: 14px; color: var(--grey-500); line-height: 1.6;
+  margin-bottom: 28px;
+}
+.newsletter-ml-form {
+  display: flex; gap: 0;
+}
+.nl-ml-input {
+  flex: 1; background: var(--black); border: 1px solid var(--grey-700);
+  border-right: none; color: var(--white);
+  font-family: var(--font-body); font-size: 14px;
+  padding: 14px 18px; outline: none;
+  transition: border-color 0.15s;
+}
+.nl-ml-input::placeholder { color: var(--grey-700); }
+.nl-ml-input:focus { border-color: var(--grey-500); }
+.nl-ml-btn {
+  background: var(--white); color: var(--black);
+  font-family: var(--font-body); font-size: 12px; font-weight: 600;
+  letter-spacing: 0.12em; text-transform: uppercase;
+  padding: 14px 28px; border: none; cursor: pointer; flex-shrink: 0;
+  transition: background 0.15s, color 0.15s;
+}
+.nl-ml-btn:hover { background: var(--red); color: var(--white); }
+.newsletter-legal {
+  font-size: 11px; color: var(--grey-700); margin-top: 12px; line-height: 1.5;
+}
+.newsletter-legal a { color: var(--grey-500); transition: color 0.15s; }
+.newsletter-legal a:hover { color: var(--white); }
+
+
+/* ── PAST SHOWS ───────────────────────────────── */
+.past-section { padding: 100px 0; background: var(--black); }
+.past-grid { display: flex; flex-direction: column; margin-bottom: 32px; }
+.past-row {
+  display: grid; grid-template-columns: 120px 1fr 160px;
+  align-items: center; padding: 16px 0;
+  border-bottom: 1px solid var(--grey-900);
+  transition: background 0.1s;
+}
+.past-row:first-child { border-top: 1px solid var(--grey-900); }
+.past-row:hover { background: rgba(255,255,255,0.02); }
+.past-date  { font-size: 12px; font-weight: 500; letter-spacing: 0.06em; color: var(--grey-500); text-transform: uppercase; }
+.past-venue { font-size: 15px; font-weight: 500; color: var(--white); }
+.past-city  { font-size: 12px; color: var(--grey-500); text-align: right; }
+.past-all-link {
+  display: inline-block;
+  font-size: 12px; font-weight: 600; letter-spacing: 0.12em;
+  text-transform: uppercase; color: var(--grey-500);
+  transition: color 0.15s; border-bottom: 1px solid var(--grey-800);
+  padding-bottom: 2px;
+}
+.past-all-link:hover { color: var(--white); border-color: var(--white); }
+
+/* ── MERCH ────────────────────────────────────── */
+.merch-section { padding: 100px 0; background: var(--black); }
+.merch-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--grey-800); }
+.merch-card { background: var(--black); display: flex; flex-direction: column; }
+.merch-img { aspect-ratio: 1; overflow: hidden; }
+.merch-img img { width: 100%; height: 100%; object-fit: cover; filter: grayscale(1) contrast(1.1); transition: transform 0.3s ease; }
+.merch-card:hover .merch-img img { transform: scale(1.04); }
+.merch-info { padding: 14px 16px 10px; flex: 1; border-top: 1px solid var(--grey-800); }
+.merch-name { font-family: var(--font-display); font-weight: 800; font-style: italic; font-size: 17px; color: var(--white); text-transform: uppercase; letter-spacing: -0.01em; }
+.merch-price { font-size: 13px; color: var(--grey-500); margin-top: 4px; }
+.merch-btn {
+  background: var(--grey-900); color: var(--white);
+  font-family: var(--font-body); font-size: 11px; font-weight: 600;
+  letter-spacing: 0.12em; text-transform: uppercase;
+  padding: 12px 16px; border: none; border-top: 1px solid var(--grey-800);
+  cursor: pointer; transition: background 0.15s, color 0.15s; text-align: center;
+}
+.merch-btn:hover { background: var(--white); color: var(--black); }
+
+.footer {
+  background: var(--black); border-top: 1px solid var(--grey-900);
+  padding: 60px 0 40px;
+}
+.footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 40px; padding-bottom: 48px; border-bottom: 1px solid var(--grey-900); }
+.footer-brand {}
+.footer-logo { font-family: var(--font-display); font-weight: 800; font-style: italic; font-size: 28px; color: var(--white); text-transform: uppercase; letter-spacing: -0.02em; white-space: nowrap; }
+.footer-tagline { font-size: 13px; color: var(--grey-500); margin-top: 10px; line-height: 1.5; max-width: 200px; }
+.footer-col-title { font-size: 10px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: var(--grey-500); margin-bottom: 14px; }
+.footer-links { display: flex; flex-direction: column; gap: 10px; }
+.footer-links a { font-size: 13px; color: var(--grey-500); transition: color 0.15s; }
+.footer-links a:hover { color: var(--white); }
+.footer-bottom { display: flex; justify-content: space-between; align-items: center; padding-top: 28px; }
+.footer-copy { font-size: 11px; color: var(--grey-700); letter-spacing: 0.04em; }
+.footer-legal { display: flex; gap: 24px; }
+.footer-legal a { font-size: 11px; color: var(--grey-700); letter-spacing: 0.04em; transition: color 0.15s; }
+.footer-legal a:hover { color: var(--white); }
+</style>
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav class="nav" id="main-nav">
+  <div class="nav-logo">Division&nbsp;7</div>
+  <div class="nav-links">
+    <a href="#shows" class="active">Shows</a>
+    <a href="#music">Music</a>
+    <a href="#merch">Merch</a>
+  </div>
+  <button class="nav-cta" onclick="document.getElementById('shows').scrollIntoView({behavior:'smooth'}); return false;">Tickets</button>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <h1 class="hero-title">Division 7</h1>
+    <div class="hero-actions">
+      <button class="btn-primary" onclick="document.getElementById('shows').scrollIntoView({behavior:'smooth'})">See All Shows</button>
+      <button class="btn-outline" onclick="document.getElementById('music').scrollIntoView({behavior:'smooth'})">Latest Release</button>
+    </div>
+  </div>
+  <div class="hero-scroll">Scroll</div>
+</section>
+
+<!-- SHOWS -->
+<section class="shows-section" id="shows">
+  <div class="container">
+    <div class="section-header">
+      <div>
+        <div class="section-label">On Tour</div>
+        <div class="section-title-large">Shows</div>
+      </div>
+      <a href="#" class="section-link">All Dates →</a>
+    </div>
+
+    <div class="show-row">
+      <div class="show-date"><span class="month">Oct</span>18</div>
+      <div class="show-city">Gothenburg</div>
+      <div class="show-venue">Pustervik</div>
+      <button class="show-btn disabled" disabled>Sold Out</button>
+    </div>
+
+    <div class="show-row">
+      <div class="show-date"><span class="month">Nov</span>15</div>
+      <div class="show-city">Stockholm</div>
+      <div class="show-venue">Fållan</div>
+      <button class="show-btn">Buy Tickets</button>
+    </div>
+
+    <div class="show-row">
+      <div class="show-date"><span class="month">Nov</span>22</div>
+      <div class="show-city">Malmö</div>
+      <div class="show-venue">KB</div>
+      <button class="show-btn">Buy Tickets</button>
+    </div>
+
+    <div class="show-row">
+      <div class="show-date"><span class="month">Dec</span>04</div>
+      <div class="show-city">Stockholm</div>
+      <div class="show-venue">Nalen</div>
+      <button class="show-btn">Buy Tickets</button>
+    </div>
+
+    <div class="show-row">
+      <div class="show-date"><span class="month">Dec</span>19</div>
+      <div class="show-city">Gothenburg</div>
+      <div class="show-venue">Trädgårn</div>
+      <button class="show-btn disabled" disabled>Sold Out</button>
+    </div>
+
+  </div>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="newsletter-section">
+  <div class="container">
+    <div class="newsletter-inner">
+      <div class="newsletter-title">Don't miss a show.</div>
+      <div class="newsletter-sub">Tour dates, new releases, nothing else. Direct to your inbox.</div>
+      <form class="newsletter-ml-form" onsubmit="handleNLSubmit(event)">
+        <input class="nl-ml-input" type="email" placeholder="Your email address" required id="nl-email">
+        <button type="submit" class="nl-ml-btn" id="nl-submit">Subscribe</button>
+      </form>
+      <div class="newsletter-legal">Powered by <a href="https://www.mailerlite.com" target="_blank">MailerLite</a>. Unsubscribe any time.</div>
+    </div>
+  </div>
+</section>
+
+<!-- MUSIC -->
+<section class="music-section" id="music">
+  <div class="container">
+    <div class="section-header">
+      <div>
+        <div class="section-label">Discography</div>
+        <div class="section-title-large">Music</div>
+      </div>
+      <a href="https://open.spotify.com/artist/3z6F8NIRs126ddMywopmfP?si=7cdh0FWvTASuC7JDquzPKg" target="_blank" class="section-link">Spotify →</a>
+    </div>
+
+    <div class="releases-grid">
+      <div class="release-card">
+        <a href="https://open.spotify.com/album/0XfILw7onStPyx47K9H6WF?si=Nx5LD0rWRhORs97rZDqBhQ" target="_blank">
+          <div class="release-art"><img src="../../assets/Langbro_feelin_2026.png" alt="Långbro feelin'"></div>
+        </a>
+        <div class="release-info">
+          <div class="release-name">Långbro feelin'</div>
+          <div class="release-meta">2026 · Album</div>
+        </div>
+      </div>
+      <div class="release-card">
+        <a href="https://open.spotify.com/album/4mcUTIlpSJJodXbbwp941b?si=wN_A6pHrTJe7e0wdBA9vuw" target="_blank">
+          <div class="release-art"><img src="../../assets/Hundhuvudet_rullar_2025.png" alt="Hundhuvudet rullar"></div>
+        </a>
+        <div class="release-info">
+          <div class="release-name">Hundhuvudet rullar</div>
+          <div class="release-meta">2025 · Live på Pustervik</div>
+        </div>
+      </div>
+      <div class="release-card">
+        <a href="https://open.spotify.com/album/7Ec5WAhUNMu6Wqbj4YjTJb?si=78ALasrCT8OZFLpLPBx-DQ" target="_blank">
+          <div class="release-art"><img src="../../assets/Hundhuvudet_2024.png" alt="Hundhuvudet"></div>
+        </a>
+        <div class="release-info">
+          <div class="release-name">Hundhuvudet</div>
+          <div class="release-meta">2024 · Album</div>
+        </div>
+      </div>
+      <div class="release-card">
+        <a href="https://open.spotify.com/album/6ifAUzBpC8vCrmW1DarAy7?si=ViOu-VHFQPy6f2bhnuoOBw" target="_blank">
+          <div class="release-art"><img src="../../assets/Paradis_Garage_2023.png" alt="Paradis Garage"></div>
+        </a>
+        <div class="release-info">
+          <div class="release-name">Paradis Garage</div>
+          <div class="release-meta">2023 · Album</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MERCH -->
+<section class="merch-section" id="merch">
+  <div class="container">
+    <div class="section-header">
+      <div>
+        <div class="section-label">Official Store</div>
+        <div class="section-title-large">Merch</div>
+      </div>
+      <a href="#" class="section-link">All Products →</a>
+    </div>
+    <div class="merch-grid">
+      <div class="merch-card">
+        <div class="merch-img"><img src="../../assets/DSCF4337_svartvitt.jpg" alt="Division 7 Tee"></div>
+        <div class="merch-info">
+          <div class="merch-name">Division 7 Tee</div>
+          <div class="merch-price">249 kr</div>
+        </div>
+        <button class="merch-btn">Buy</button>
+      </div>
+      <div class="merch-card">
+        <div class="merch-img"><img src="../../assets/DSCF4557_svartvitt.jpg" alt="Tour Hoodie"></div>
+        <div class="merch-info">
+          <div class="merch-name">Tour Hoodie</div>
+          <div class="merch-price">499 kr</div>
+        </div>
+        <button class="merch-btn">Buy</button>
+      </div>
+      <div class="merch-card">
+        <div class="merch-img"><img src="../../assets/DSCF4673_svartvitt.jpg" alt="Fållan LP"></div>
+        <div class="merch-info">
+          <div class="merch-name">Fållan — LP</div>
+          <div class="merch-price">299 kr</div>
+        </div>
+        <button class="merch-btn">Buy</button>
+      </div>
+      <div class="merch-card">
+        <div class="merch-img"><img src="../../assets/DSCF4686_svartvitt.jpg" alt="Logo Cap"></div>
+        <div class="merch-info">
+          <div class="merch-name">Logo Cap</div>
+          <div class="merch-price">199 kr</div>
+        </div>
+        <button class="merch-btn">Buy</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PAST SHOWS -->
+<section class="past-section" id="about">
+  <div class="container">
+    <div class="section-header">
+      <div>
+        <div class="section-label">Archive</div>
+        <div class="section-title-large">Past Shows</div>
+      </div>
+      <a href="past-shows.html" class="section-link">All Shows →</a>
+    </div>
+    <div class="past-grid">
+      <div class="past-row">
+        <span class="past-date">Oct 2025</span>
+        <span class="past-venue">Pustervik</span>
+        <span class="past-city">Gothenburg</span>
+      </div>
+      <div class="past-row">
+        <span class="past-date">Sep 2025</span>
+        <span class="past-venue">Kulturbolaget</span>
+        <span class="past-city">Malmö</span>
+      </div>
+      <div class="past-row">
+        <span class="past-date">Aug 2025</span>
+        <span class="past-venue">Nalen</span>
+        <span class="past-city">Stockholm</span>
+      </div>
+      <div class="past-row">
+        <span class="past-date">Jun 2025</span>
+        <span class="past-venue">Fållan</span>
+        <span class="past-city">Stockholm</span>
+      </div>
+      <div class="past-row">
+        <span class="past-date">Apr 2025</span>
+        <span class="past-venue">KB</span>
+        <span class="past-city">Malmö</span>
+      </div>
+    </div>
+    <a href="past-shows.html" class="past-all-link">View all past shows →</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">Division&nbsp;7</div>
+        <div class="footer-tagline">Indie rock from Gothenburg, Sweden. Since 2017.</div>
+      </div>
+      <div>
+        <div class="footer-col-title">Shows</div>
+        <div class="footer-links">
+          <a href="#">Upcoming</a>
+          <a href="#">Past Shows</a>
+          <a href="#">Buy Tickets</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-col-title">Music</div>
+        <div class="footer-links">
+          <a href="#">Spotify</a>
+          <a href="#">Apple Music</a>
+          <a href="#">Bandcamp</a>
+          <a href="#">YouTube</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-col-title">Follow</div>
+        <div class="footer-links">
+          <a href="#">Instagram</a>
+          <a href="#">Facebook</a>
+          <a href="#">Press Kit</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="footer-copy">© 2025 Division 7. All rights reserved.</span>
+      <div class="footer-legal">
+        <a href="#">Privacy</a>
+        <a href="#">Booking</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Newsletter form handler (MailerLite integration point)
+  function handleNLSubmit(e) {
+    e.preventDefault();
+    const btn = document.getElementById('nl-submit');
+    const input = document.getElementById('nl-email');
+    btn.textContent = 'Done.';
+    btn.style.background = 'var(--grey-800)';
+    btn.style.color = 'var(--grey-500)';
+    btn.disabled = true;
+    input.disabled = true;
+    // In production: POST to MailerLite API or use their embedded form JS
+  }
+
+  // Nav scrolled state
+  const nav = document.getElementById('main-nav');
+  window.addEventListener('scroll', () => {
+    nav.classList.toggle('scrolled', window.scrollY > 60);
+  });
+
+  // Active nav link
+  const sections = ['home','shows','music','merch','about'];
+  const navLinks = document.querySelectorAll('.nav-links a');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        navLinks.forEach(l => l.classList.remove('active'));
+        const match = document.querySelector(`.nav-links a[href="#${e.target.id}"]`);
+        if (match) match.classList.add('active');
+      }
+    });
+  }, { threshold: 0.4 });
+  sections.forEach(id => { const el = document.getElementById(id); if (el) observer.observe(el); });
+</script>
+</body>
+</html>
